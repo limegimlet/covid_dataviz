@@ -1,5 +1,5 @@
 ## Welcome to Covid-19 data visualizations
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid19/alerts.html" height="525" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="525" width="100%"></iframe>
 {% endraw %}
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
