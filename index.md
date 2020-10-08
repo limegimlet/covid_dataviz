@@ -1,6 +1,6 @@
 ## Welcome to Covid-19 data visualizatios
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid19/alerts.htmlembed" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid19/alerts.html" height="525" width="100%"></iframe>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
