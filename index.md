@@ -2,11 +2,15 @@
 * _**Mobile users**: view in landscape mode._
 * _**To view indicator values**: touch/hover over département._
 
-You can find data caveats and alert descriptions below the maps.
+* TOC
+{:toc}
+
+# Maps
+## France
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-## Alerts in Ile de France
+## Ile de France
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts_idf.html" height="500" width="100%"></iframe>
 {% endraw %}
 
