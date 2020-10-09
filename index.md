@@ -1,7 +1,14 @@
 ## Covid 19 Alert levels in France
+On mobile or tablet: best viewed in landscape.
+To view values: hover over département with mouse
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
+### Zoom on Ile de France
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts_idf.html" height="500" width="100%"></iframe>
+{% endraw %}
+
+### Boilerplate - to be removed
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
