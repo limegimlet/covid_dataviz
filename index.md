@@ -1,6 +1,9 @@
 # Covid 19 Alert levels in France
-On mobile or tablet: best viewed in landscape.
-To view values: hover over département with mouse
+**On mobile devices**: best viewed in landscape mode.
+
+**To view indicator values**: touch/hover over département
+
+You can find data caveats (please read) as well as alert definitions below the maps.
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
@@ -10,24 +13,23 @@ To view values: hover over département with mouse
 
 # Why did I make this?
 
-I wanted to be able to see all indicator numbers for different areas of France in one map. I have not been able to find an official map that a) shows the indicators that determine alert levels & restrictions; and b) is interactive. 
-
+I wanted to be able to see all indicator numbers for different areas of France in one interactive map, and suspect I'm not alone. The official maps from the French governenment are either static images, or are interactive but do not show the indicators that determine alert levels & restrictions.
 
 # Data caveats - please read!
 
 These maps display Covid-19 indicator values. **The values are merely an approximation of the official government figures** used to determine if a threshold has been reached.
 
-I cannot replicate government figures completely due to a lack of granularity in of the publicly-available data, as well as time lags in the reporting.
+I cannot replicate government figures completely due to the following:
 
-* There is a 3-day lag in testing numbers. For example, on Oct 7, the latest testing data was from Oct 4. Since incidence rates are based on testing data, the 'latest' `incid_tous` & `incid_70+` values will always from at least 3 days earlier.
-
-
-* 'Personnes agées' for the French government means people 65 or older. However, the publicly-available testing data only breaks down age in 10-year increments. As a result the maps here show incidence rates for people 70 or older( `incid_70+`). In other words, they are understated compared to official government figures.
+* a 3-day lag in testing numbers. Since incidence rates are based on testing data, the 'latest' `incid_tous` & `incid_70+` values here will always from at least 3 days earlier.
 
 
-* The government examines overall incidence rates for the major metropolitan in France when classifiying a département. These are Paris, Rennes, Bordeaux, Toulouse, Montpellier, Marseilles, Lyon, Grenoble and Lille. However publicly-available testing data is only at the département. Paris is the only city with its own département. This likely means the overall incidence rate in these maps (`incid_tous`) is also understated.
+* _Personnes agées_ for the French government means people 65 or older. However, the publicly-available testing data only breaks down age in 10-year increments. As a result the maps here show incidence rates for people 70 or older( `incid_70+`). In other words, they are understated compared to official government figures.
 
-Below is a description of alert levels (for now, still _en français_, translation coming soon) as well as data sources. 
+
+* The government examines overall incidence rates for the major metropolitan in France when classifiying a département. These are Paris, Rennes, Bordeaux, Toulouse, Montpellier, Marseilles, Lyon, Grenoble and Lille. However publicly-available testing data is by département, not commune. Paris is the only city with its own département. This likely means the overall incidence rate in these maps (`incid_tous`) is also understated.
+
+Read on for a description of alert levels (for now, still _en français_, translation coming soon) as well as data sources & processing. 
 
 # Les seuils d'alerte (VF)
 
