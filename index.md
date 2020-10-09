@@ -1,23 +1,25 @@
-# Interactive map of Covid-19 alert levels across France
+# Interactive map of Covid-19 alerts in France
 {:.no_toc}
 
-These 3 indicators determine the overall alert level (`niveau_global`) for a département:
+The indicators that determine the overall alert level (`niveau_global`) for a département are:
 * **incidence rate**: the number of positive tests per 100k population. Shown on the map as `incid_tous`.
 * **incidence rate among the elderly**: offically, this is the incidence rate for those over 65; for these maps, it's over 70 so shown as `incid_70+` on the map. (To learn why, see 'Data caveats'.) 
 * **percent of ICU beds occupied by Covid patients**. On the map it's `rea%`.
 
-To learn more about alert levels, see 'Seuils d'alerte' below (in FR; translation coming soon).
+Below the maps you can find more info:
 
 * TOC
 {:toc}
 
 ## France
+{:.no_toc}
 * _**Mobile users**: view in landscape mode._
 * _**To view underlying indicator values**: touch/hover over département._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 ## Ile de France
+{:.no_toc}
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts_idf.html" height="500" width="100%"></iframe>
 {% endraw %}
 
