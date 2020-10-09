@@ -1,14 +1,19 @@
-# Covid 19 Alert levels in France
+# Interactive map of Covid-19 alert levels across France
 {:.no_toc}
+
+These 3 indicators determine the overall alert level (`niveau_global`) for a département:
+* **incidence rate**: the number of positive tests per 100k population. Shown on the map as `incid_tous`.
+* **incidence rate among the elderly**: offically, this is the incidence rate for those over 65; for these maps, it's over 70 so shown as `incid_70+` on the map. (To learn why, see 'Data caveats'.) 
+* **percent of ICU beds occupied by Covid patients**. On the map it's `rea%`.
+
+To learn more about alert levels, see 'Seuils d'alerte' below (in FR; translation coming soon).
 
 * TOC
 {:toc}
 
-# Maps
-* _**Mobile users**: view in landscape mode._
-* _**To view indicator values**: touch/hover over département._
-
 ## France
+* _**Mobile users**: view in landscape mode._
+* _**To view underlying indicator values**: touch/hover over département._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
@@ -16,7 +21,7 @@
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts_idf.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-# Why did I make this?
+# Why create yet another Covid graphic?
 
 I wanted to be able to see all indicator numbers for different areas of France in one interactive map, and suspect I'm not alone. The official maps from the French governenment are either static images, or are interactive but do not show the indicators that determine alert levels & restrictions.
 
