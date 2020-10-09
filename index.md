@@ -1,9 +1,9 @@
 # Covid 19 Alert levels in France
-**Mobile users**: view in landscape mode.
+* _**Mobile users**: view in landscape mode._
 
-**To view indicator values**: touch/hover over département.
+* _**To view indicator values**: touch/hover over département._
 
-_You can find data caveats and alert definitions below the maps._
+You can find data caveats and alert descriptions below the maps.
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
