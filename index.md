@@ -1,19 +1,14 @@
-# Interactive map of Covid-19 alerts in France
-{:.no_toc}
+Use this map to better understand the latest alert levels**<sup>*</sup>** across France. 
 
-Use this map to understand the latest alert levels<sup>*</sup> across France. 
-* To see the underlying indicator values, hover over a department (or touch on a device).
+**<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info</sub>._
 
-**<sup>*</sup>** _based on latest publicly-available indicator values. See **Data caveats** for more info._
-
-## France
-{:.no_toc}
 * _**Mobile users**: view in landscape mode._
+* _**To see the underlying indicator values:** hover over a department (or touch on a device)._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-### What do the alert levels mean?
+### What do these alert levels mean?
 {:.no_toc}
 
 See **Seuils d'alerte** below.
