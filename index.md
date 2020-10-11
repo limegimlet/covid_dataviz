@@ -1,6 +1,6 @@
-Confused about alerts and restrictions? Hover over this map to better understand the latest alert levels across France**<sup>*</sup>**. 
+**Confused about France's alerts and restrictions?** Hover over this map to better understand the latest alert levels**<sup>*</sup>**. 
 
-* _**Mobile users**: view in landscape mode._
+_**Mobile users**: view in landscape mode._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
