@@ -1,31 +1,55 @@
 # Interactive map of Covid-19 alerts in France
 {:.no_toc}
 
-The indicators that determine the overall alert level (`niveau_global`) for a département are:
-* **incidence rate**: the number of positive tests per 100k population. Shown on the map as `incid_tous`.
-* **incidence rate among the elderly**: offically, this is the incidence rate for those over 65; for these maps, it's over 70 so shown as `incid_70+` on the map. (To learn why, see 'Data caveats'.) 
-* **percent of ICU beds occupied by Covid patients**. On the map it's `rea%`.
+Use this map to understand the latest alert levels<sup>*</sup> across France. 
+* To see the underlying indicator values, hover over a department (or touch on a device).
 
-Below the maps you can find more info:
-
-* TOC
-{:toc}
+**<sup>*</sup>** _based on latest publicly-available indicator values. See **Data caveats** for more info._
 
 ## France
 {:.no_toc}
 * _**Mobile users**: view in landscape mode._
-* _**To view underlying indicator values**: touch/hover over département._
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-## Ile de France
+### What do the alert levels mean?
 {:.no_toc}
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts_idf.html" height="500" width="100%"></iframe>
-{% endraw %}
+
+See **Seuils d'alerte** below.
+
+### What do the indicator values represent?
+{:.no_toc}
+
+The overall alert level for a département are determined by:
+
+* **incidence rate** (`incid_tous`): the number of positive tests per 100k population.
+* **incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. (To learn why, see 'Data caveats'.) 
+* **percent of ICU beds occupied by Covid patients** (`incid_70+`)
+
+Below you can find more info:
+
+* TOC
+{:toc}
 
 # Why create yet another Covid graphic?
 
-I wanted to be able to see all indicator numbers for different areas of France in one interactive map, and suspect I'm not alone. The official maps from the French governenment are either static images, or are interactive but do not show the indicators that determine alert levels & restrictions.
+The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions.
+
+Check them out yourself (in French):
+
+* Santé Publique France: [COVID-19 : tableau de bord de l’épidémie en chiffres](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde#block-266151)
+
+Shows most recent case, hospitalization and death counts for France overall. 
+
+* Gouvernement de France : [Info Coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
+
+Interactive map of numbers from Santé Publique France.
+
+* Ministère des Solidarités et Santé: [Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)
+
+The official, albeit static, alert map that I've tried to replicate (but please see section below).
+
 
 # Data caveats - please read!
 
