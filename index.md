@@ -39,7 +39,11 @@ Etat d'urgence sanitaire | > 250 | > 100 | > 60
 
 Their associated restrictions are described in **les seuils d'alerte**, below.
 
-## Why create yet another Covid graphic?
+## How can I see trendlines? 
+
+Go [here](region_kpi.html).
+
+## Why create yet more Covid infographics?
 
 The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions. They are also hard to find.
 
