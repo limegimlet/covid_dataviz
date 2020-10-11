@@ -1,4 +1,6 @@
-**Confused about France's alerts and restrictions?** Hover over this map to better understand the latest alert levels**<sup>*</sup>**. 
+**Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
+
+The indicators behind the alerts, and the values that trigger them, are explained below the maps.
 
 _**Mobile users**: view in landscape mode._
 
@@ -10,16 +12,27 @@ _**Mobile users**: view in landscape mode._
 ### What do these alert levels mean?
 {:.no_toc}
 
-Reaching a new alert level "unlocks" possible new restrictions (or eases them, if indicators go down). See **Seuils d'alerte** for details.
+These alerts are meant to convey how actively Covid-19 is being spread. Reaching a new alert level "unlocks" possible new restrictions (or eases them, if indicators go down). 
 
-### What do the indicator values represent?
+### What does the info in the hover boxes mean?
 {:.no_toc}
 
-The overall alert level for a département is determined by:
+These are the indicators that determine overall alert level (`niveau_global`) for a département, or group of départements. 
 
-* **incidence rate** (`incid_tous`): the number of positive tests per 100k population.
-* **incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. (To learn why, see 'Data caveats'.) 
-* **percent of ICU beds occupied by Covid patients** (`incid_70+`)
+1. **incidence rate** (`incid_tous`): the number of positive tests per 100k population.
+
+2. **incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. (To learn why, see 'Data caveats'.) 
+
+3. **percent of ICU beds occupied by Covid patients** (`rea%`)
+
+Here's how they determine alert levels. Their associated restrictions are described in **les seuils d'alerte**, below.
+
+**Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
+Alerte | > 50 | - |-
+Alerte renforcée | > 150 | > 50 | -
+Alerte maximale | > 250 | > 100 | > 30
+Etat d'urgence sanitaire | > 250 | > 100 | > 60
+
 
 Below you can find more info:
 
