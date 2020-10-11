@@ -1,7 +1,5 @@
 **Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
 
-How alerts are triggered and their associated restrictions are explained below the map.
-
 _**Mobile users**: view in landscape._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
