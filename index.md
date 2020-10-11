@@ -1,4 +1,4 @@
-Confused about alerts and restrictions? Hover over this map to better understand the latest alert levels**<sup>*</sup>** across France. 
+Confused about alerts and restrictions? Hover over this map to better understand the latest alert levels across France**<sup>*</sup>**. 
 
 * _**Mobile users**: view in landscape mode._
 
@@ -28,21 +28,21 @@ Below you can find more info:
 
 # Why create yet another Covid graphic?
 
-The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions.
+The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions. They are also hard to find.
 
 Check them out yourself (in French):
 
 * Santé Publique France: [COVID-19 : tableau de bord de l’épidémie en chiffres](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde#block-266151)
 
-Shows most recent case, hospitalization and death counts for France overall. 
+_Shows most recent case, hospitalization and death counts for France overall._
 
-* Gouvernement de France : [Info Coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
+* gouvernement.fr : [Info coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
 
-Interactive map of numbers from Santé Publique France.
+_Interactive map of numbers from Santé Publique France._
 
 * Ministère des Solidarités et Santé: [Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)
 
-The official, albeit static, alert map that I've tried to replicate (but please see section below).
+_The official, albeit static, alert map that I've tried to replicate (but please see section below)._
 
 
 # Data caveats - please read!
