@@ -1,22 +1,21 @@
-Use this map to better understand the latest alert levels**<sup>*</sup>** across France. 
-
-**<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info</sub>._
+Confused about alerts and restrictions? Hover over this map to better understand the latest alert levels**<sup>*</sup>** across France. 
 
 * _**Mobile users**: view in landscape mode._
-* _**To see the underlying indicator values:** hover over a department (or touch on a device)._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
+**<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
+
 ### What do these alert levels mean?
 {:.no_toc}
 
-See **Seuils d'alerte** below.
+Reaching a new alert level "unlocks" possible new restrictions (or eases them, if indicators go down). See **Seuils d'alerte** for details.
 
 ### What do the indicator values represent?
 {:.no_toc}
 
-The overall alert level for a département are determined by:
+The overall alert level for a département is determined by:
 
 * **incidence rate** (`incid_tous`): the number of positive tests per 100k population.
 * **incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. (To learn why, see 'Data caveats'.) 
