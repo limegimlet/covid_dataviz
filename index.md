@@ -1,31 +1,37 @@
 **Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
 
-The indicators behind the alerts, and the values that trigger them, are explained below the maps.
+How alerts are triggered and their associated restrictions are explained below the map.
 
-_**Mobile users**: view in landscape mode._
+_**Mobile users**: view in landscape._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-### What do these alert levels mean?
+## Have more questions?
 {:.no_toc}
+
+* TOC
+{:toc}
+
+# FAQ
+
+## What do these alert levels mean?
 
 These alerts are meant to convey how actively Covid-19 is being spread. Reaching a new alert level "unlocks" possible new restrictions (or eases them, if indicators go down). 
 
-### What does the info in the hover boxes mean?
-{:.no_toc}
+## What does the info in the hover boxes mean?
 
-These are the indicators that determine overall alert level (`niveau_global`) for a département, or group of départements. 
+These are the indicators that determine overall alert level (`niveau_global`) for a département or group of départements. 
 
-1. **incidence rate** (`incid_tous`): the number of positive tests per 100k population.
+1. **Incidence rate** (`incid_tous`): the number of positive tests per 100k population.
 
-2. **incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. (To learn why, see 'Data caveats'.) 
+2. **Incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. To learn why, see **Data caveats**.
 
-3. **percent of ICU beds occupied by Covid patients** (`rea%`)
+3. **Percent of ICU beds occupied by Covid patients** (`rea%`)
 
-Here's how they determine alert levels. Their associated restrictions are described in **les seuils d'alerte**, below.
+## How are alert levels triggered?
 
 **Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
 Alerte | > 50 | - |-
@@ -33,13 +39,9 @@ Alerte renforcée | > 150 | > 50 | -
 Alerte maximale | > 250 | > 100 | > 30
 Etat d'urgence sanitaire | > 250 | > 100 | > 60
 
+Their associated restrictions are described in **les seuils d'alerte**, below.
 
-Below you can find more info:
-
-* TOC
-{:toc}
-
-# Why create yet another Covid graphic?
+## Why create yet another Covid graphic?
 
 The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions. They are also hard to find.
 
