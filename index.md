@@ -39,6 +39,44 @@ Etat d'urgence sanitaire | > 250 | > 100 | > 60
 
 Their associated restrictions are described in **les seuils d'alerte**, below.
 
+## What restrictions could be introduced?
+
+### Alerte
+
+**Mésures déclenchées**
+
+Pour ces départements, peu de mesures supplémentaires sont ajoutées, si ce n’est que les rassemblements devront être limités à 30 personnes. 
+
+Toutefois, les préfets sont autorisés à prendre des mesures complémentaires si nécéssaire.
+
+### Alerte renforcée
+
+**Mésures déclenchées**
+
+* la jauge des rassemblements est baissée de 5 000 à 1 000 personnes 
+* les rassemblements de plus de 10 personnes dans l’espace public sont interdits 
+* les fêtes locales et étudiantes sont interdites
+* les gymnases, salles des fêtes et salles de sport sont fermés
+* les bars et restaurant doivent fermer à partir de 22 heures. 
+
+De plus, le ministre de la Santé a rappelé que “le télétravail doit être favorisé autant que possible, surtout sur les publics vulnérables”.
+
+### Alerte maximale
+
+**Mésures déclenchées**
+
+* la fermeture totale des bars et des restaurants, ainsi que les établissements recevant du public, sauf s’il existe un protocole sanitaire strict. 
+
+NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts. 
+
+“Ces dispositions sont temporaires, l’objectif est qu’elles ne durent pas plus de deux semaines”, a déclaré Olivier Véran.
+
+### État d’urgence sanitaire
+
+**Mésures déclenchées**
+
+Le ministre des Solidarités et de la Santé n’a pour l’heure pas détaillé les mesures qui seraient décidées avec ce seuil d’alerte.
+
 ## How can I see trendlines? 
 
 Go [here](region_kpi.html).
