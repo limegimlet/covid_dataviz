@@ -7,12 +7,12 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-## What do these alert levels mean?
+### What do these alert levels mean?
 {:.no_toc}
 
 These alerts are meant to convey how actively Covid-19 is spreading. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down. 
 
-## What does the info in the hover boxes mean?
+### What does the info in the hover boxes mean?
 {:.no_toc}
 
 These are the indicators that determine overall alert level (`niveau_global`) for a département or group of départements. 
@@ -23,7 +23,7 @@ These are the indicators that determine overall alert level (`niveau_global`) fo
 
 3. **Percent of ICU beds occupied by Covid patients** (`rea%`)
 
-## How are alert levels triggered?
+### How are alert levels triggered?
 {:.no_toc}
 
 **Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
@@ -44,7 +44,7 @@ Here is a national overview:
 
 Keep in mind, there's a lot of regional variation:
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea%_by_reg.html" height="600" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_by_reg.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 # Find out more:
