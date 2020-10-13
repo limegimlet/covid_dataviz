@@ -12,11 +12,11 @@ _**Mobile users**: view in landscape._
 
 These are the indicators that determine overall alert level for a département or group of départements. 
 
-**This label**: | **is for this indicator**: | **and represents:**
-`niveau_global`| Alert level: |_how actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
-`incid_tous` | Incidence rate: |_the number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See **Data caveats** for details._
-`incid_70+`| Incidence rate among the elderly: |_offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level.
-`rea%` | Percent of ICU beds occupied by Covid patients. | _the most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
+**This label**: | **represents**: | **which means:**
+`niveau_global`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
+`incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See **Data caveats** for details._
+`incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level.
+`rea%` | Percent of ICU beds occupied by Covid patients | _The most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
 
 ### How are alert levels triggered?
 {:.no_toc}
