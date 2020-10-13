@@ -17,14 +17,15 @@ These alerts are meant to convey how actively Covid-19 is spreading. Reaching a 
 
 These are the indicators that determine overall alert level (`niveau_global`) for a département or group of départements. 
 
-1. **Incidence rate** (`incid_tous`): the number of positive tests per 100k population.
-
-2. **Incidence rate among the elderly** (`incid_70+`): offically, this is the incidence rate for those over 65; for these maps, it's over 70. To learn why, see **Data caveats**.
-
-3. **Percent of ICU beds occupied by Covid patients** (`rea%`)
+**This label**: | **represents this indicator**: | 
+`incid_tous` | incidence rate: the number of positive tests per 100k population.
+`incid_70+`| Incidence rate among the elderly: offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details.
+`rea%` | Percent of ICU beds occupied by Covid patients.
 
 ### How are alert levels triggered?
 {:.no_toc}
+
+These are the levels defined by the government
 
 **Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
 Alerte | > 50 | - |-
