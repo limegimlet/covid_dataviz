@@ -1,5 +1,8 @@
 **Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
 
+# Where are we today?
+{:.no_toc}
+
 _**Mobile users**: view in landscape._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
@@ -7,17 +10,10 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-## Have more questions?
+## What do these alert levels mean?
 {:.no_toc}
 
-* TOC
-{:toc}
-
-# FAQ
-
-## What do these alert levels mean?
-
-These alerts are meant to convey how actively Covid-19 is being spread. Reaching a new alert level "unlocks" possible new restrictions (or eases them, if indicators go down). 
+These alerts are meant to convey how actively Covid-19 is spreading. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down. 
 
 ## What does the info in the hover boxes mean?
 
@@ -30,6 +26,7 @@ These are the indicators that determine overall alert level (`niveau_global`) fo
 3. **Percent of ICU beds occupied by Covid patients** (`rea%`)
 
 ## How are alert levels triggered?
+{:.no_toc}
 
 **Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
 Alerte | > 50 | - |-
@@ -37,9 +34,34 @@ Alerte renforcée | > 150 | > 50 | -
 Alerte maximale | > 250 | > 100 | > 30
 Etat d'urgence sanitaire | > 250 | > 100 | > 60
 
-Their associated restrictions are described in **les seuils d'alerte**, below.
+Their associated restrictions are described in **What are the restrictions?** further down.
 
-## What restrictions could be introduced?
+# How are the indicators evolving?
+{:.no_toc}
+
+Here is a national overview:
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="600" width="100%"></iframe>
+{% endraw %}
+
+Keep in mind, there's a lot of regional variation:
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea%_by_545reg.html" height="600" width="100%"></iframe>
+{% endraw %}
+
+# Find out more:
+{:.no_toc}
+
+* TOC
+{:toc}
+
+# FAQ
+
+## What are the restrictions?
+
+The possible restrictions are determined by the alert level in your area:
+
+(In French: to be translated shortly.)
 
 ### Alerte
 
@@ -198,6 +220,6 @@ I then did additional data processing to:
 
 * calculate percentage of ICU beds occupied by Covid patients
 
-* classify each département according to the alert thresholds described above...to the best of my ability with publicly-available data. See 'Data Caveats' below.
+* classify each département according to the alert thresholds described above...to the best of my ability with publicly-available data. See 'Data Caveats' above.
 
 You can find the data processing scripts [here](https://github.com/limegimlet/covid19/tree/master).
