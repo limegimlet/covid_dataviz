@@ -1,8 +1,5 @@
 **Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
 
-# Where are we today?
-{:.no_toc}
-
 _**Mobile users**: view in landscape._
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
@@ -16,6 +13,7 @@ _**Mobile users**: view in landscape._
 These alerts are meant to convey how actively Covid-19 is spreading. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down. 
 
 ## What does the info in the hover boxes mean?
+{:.no_toc}
 
 These are the indicators that determine overall alert level (`niveau_global`) for a département or group of départements. 
 
@@ -46,7 +44,7 @@ Here is a national overview:
 
 Keep in mind, there's a lot of regional variation:
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea%_by_545reg.html" height="600" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea%_by_reg.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 # Find out more:
@@ -54,8 +52,6 @@ Keep in mind, there's a lot of regional variation:
 
 * TOC
 {:toc}
-
-# FAQ
 
 ## What are the restrictions?
 
@@ -99,7 +95,7 @@ NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
 
 Le ministre des Solidarités et de la Santé n’a pour l’heure pas détaillé les mesures qui seraient décidées avec ce seuil d’alerte.
 
-## How can I see trendlines? 
+## How can I see regional breakdowns for the indicators?
 
 Go [here](region_kpi.html).
 
