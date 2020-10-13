@@ -15,7 +15,7 @@ These are the indicators that determine overall alert level for a département o
 **This label**: | **represents**: | **which means:**
 `niveau_global`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
 `incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See **Data caveats** for details._
-`incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level.
+`incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level._
 `rea%` | Percent of ICU beds occupied by Covid patients | _The most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
 
 ### How are alert levels triggered?
@@ -36,13 +36,11 @@ Their associated restrictions are described in **What are the restrictions?** fu
 
 Here is a national overview:
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="600" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="400" width="100%"></iframe>
 {% endraw %}
 
-Keep in mind, there's a lot of regional variation:
+**Keep in mind there's a lot of regional variation, which you can see on this [page](region_kpi.html)**.
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_by_reg.html" height="600" width="100%"></iframe>
-{% endraw %}
 
 # Find out more:
 {:.no_toc}

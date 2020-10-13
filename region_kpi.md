@@ -1,11 +1,12 @@
 
 # Indicators by region
+{:.no_toc}
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_incid_tous_by_reg.html" height="1000" width="100%"></iframe>{% endraw %}
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_incid_tous_by_reg.html" height="400" width="100%"></iframe>{% endraw %}
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_incid_70_by_reg.html" height="1000" width="100%"></iframe>{% endraw %}
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_incid_70_by_reg.html" height="400" width="100%"></iframe>{% endraw %}
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_by_reg.html" height="1000" width="100%"></iframe>{% endraw %}
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_by_reg.html" height="400" width="100%"></iframe>{% endraw %}
 
 * TOC
 {:toc}
