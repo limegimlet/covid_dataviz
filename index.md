@@ -7,19 +7,15 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-### What do these alert levels mean?
-{:.no_toc}
-
-These alerts are meant to convey how actively Covid-19 is spreading. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down. 
-
 ### What does the info in the hover boxes mean?
 {:.no_toc}
 
-These are the indicators that determine overall alert level (`niveau_global`) for a département or group of départements. 
+These are the indicators that determine overall alert level for a département or group of départements. 
 
 **This label**: | **represents this indicator**: | 
-`incid_tous` | incidence rate: the number of positive tests per 100k population.
-`incid_70+`| Incidence rate among the elderly: offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details.
+`niveau_global`| Alert level: _how actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
+`incid_tous` | Incidence rate: _the number of positive tests per 100k population._
+`incid_70+`| Incidence rate among the elderly: _offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details._
 `rea%` | Percent of ICU beds occupied by Covid patients.
 
 ### How are alert levels triggered?
