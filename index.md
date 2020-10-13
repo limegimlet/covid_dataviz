@@ -36,7 +36,7 @@ Their associated restrictions are described in **What are the restrictions?** fu
 
 Here is a national overview:
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="400" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
 **Keep in mind there's a lot of regional variation, which you can see on this [page](region_kpi.html)**.
