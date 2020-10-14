@@ -38,16 +38,15 @@ These are the indicators that determine overall alert level for a département o
 These are the levels defined by the government
 
 **Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
-Alerte | > 50 | - |-
-Alerte renforcée | > 150 | > 50 | -
-Alerte maximale | > 250 | > 100 | > 30
-Etat d'urgence sanitaire | > 250 | > 100 | > 60
+**Alerte** | > 50 | - |-
+**Alerte renforcée** | > 150 | > 50 | -
+**Alerte maximale** | > 250 | > 100 | > 30
+**Etat d'urgence sanitaire** | > 250 | > 100 | > 60
 
-Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. 
+Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
+
 
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population. 
-
-For these  I've labelled them with 'Vigilence'. 
 
 ### What are the restrictions?
 
