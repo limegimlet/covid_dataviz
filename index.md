@@ -43,19 +43,25 @@ Alerte renforcée | > 150 | > 50 | -
 Alerte maximale | > 250 | > 100 | > 30
 Etat d'urgence sanitaire | > 250 | > 100 | > 60
 
+Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. 
+
+The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population. 
+
+For these  I've labelled them with 'Vigilence'. 
+
 ### What are the restrictions?
 
 The possible restrictions are determined by the alert level in your area:
 
 (In French: to be translated shortly.)
 
-#### For Alerte
+#### Alerte
 
 Pour ces départements, peu de mesures supplémentaires sont ajoutées, si ce n’est que les rassemblements devront être limités à 30 personnes. 
 
 Toutefois, les préfets sont autorisés à prendre des mesures complémentaires si nécéssaire.
 
-#### For Alerte renforcée
+#### Alerte renforcée
 
 * la jauge des rassemblements est baissée de 5 000 à 1 000 personnes 
 * les rassemblements de plus de 10 personnes dans l’espace public sont interdits 
@@ -65,7 +71,7 @@ Toutefois, les préfets sont autorisés à prendre des mesures complémentaires 
 
 De plus, le ministre de la Santé a rappelé que “le télétravail doit être favorisé autant que possible, surtout sur les publics vulnérables”.
 
-#### For Alerte maximale
+#### Alerte maximale
 
 * la fermeture totale des bars et des restaurants, ainsi que les établissements recevant du public, sauf s’il existe un protocole sanitaire strict. 
 
@@ -73,19 +79,19 @@ NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
 
 “Ces dispositions sont temporaires, l’objectif est qu’elles ne durent pas plus de deux semaines”, a déclaré Olivier Véran.
 
-#### For État d’urgence sanitaire
+#### État d’urgence sanitaire
 
 Le ministre des Solidarités et de la Santé n’a pour l’heure pas détaillé les mesures qui seraient décidées avec ce seuil d’alerte.
 
-## How can I see regional breakdowns for the indicators?
+### How can I see regional breakdowns for the indicators?
 
 Go [here](region_kpi.html).
 
-## Why create yet more Covid infographics?
+### Why create yet more Covid infographics?
 
 The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions. They are also hard to find.
 
-## Where can I see the official government info on Covid-19
+### Where can I see the official government stats on Covid-19
 
 The ones that I've been referring to:
 
