@@ -7,7 +7,7 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-# How are the indicators evolving?
+# How are the alert indicators evolving?
 {:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
@@ -55,7 +55,7 @@ Pour ces départements, peu de mesures supplémentaires sont ajoutées, si ce n�
 
 Toutefois, les préfets sont autorisés à prendre des mesures complémentaires si nécéssaire.
 
-### For Alerte renforcée
+#### For Alerte renforcée
 
 * la jauge des rassemblements est baissée de 5 000 à 1 000 personnes 
 * les rassemblements de plus de 10 personnes dans l’espace public sont interdits 
@@ -65,7 +65,7 @@ Toutefois, les préfets sont autorisés à prendre des mesures complémentaires 
 
 De plus, le ministre de la Santé a rappelé que “le télétravail doit être favorisé autant que possible, surtout sur les publics vulnérables”.
 
-### For Alerte maximale
+#### For Alerte maximale
 
 * la fermeture totale des bars et des restaurants, ainsi que les établissements recevant du public, sauf s’il existe un protocole sanitaire strict. 
 
@@ -73,7 +73,7 @@ NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
 
 “Ces dispositions sont temporaires, l’objectif est qu’elles ne durent pas plus de deux semaines”, a déclaré Olivier Véran.
 
-### For État d’urgence sanitaire
+#### For État d’urgence sanitaire
 
 Le ministre des Solidarités et de la Santé n’a pour l’heure pas détaillé les mesures qui seraient décidées avec ce seuil d’alerte.
 
