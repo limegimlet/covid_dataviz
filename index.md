@@ -13,6 +13,12 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
+Meanwhile...
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="90%"></iframe>
+{% endraw %}
+
+
 **These national numbers hide regional variations. You can compare regions and departments [on this page](region_kpi.html)**.
 
 # Learn more
