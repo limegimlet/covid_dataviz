@@ -15,14 +15,20 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-# How these trends impact hospitals
+Unlike with the first wave, the goal is to keep hospitals open for non-Covid patients as well since lack of hospital access would also lead to excess mortality.  Hence why the relatively low-seeming 30% ICU occupancy is the tipping point for going to alerte maximale. 
+
+Nationwide, we are still just barely under that as of Oct 15. However there are departements that are already well above 60% ICU capacity.
+
+The emphasis on slowing admissions to ICU is especially important for the second wave because ICU staff are exhausted. Unlike the first wave when Covid was limited mainly to Grand Est and Ile de France, the virus is now extremely active across the country. Since no regions have spare ICU capacity, for this wave it won't be possible to transfer patients.
+
+**These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
+
 {:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="85%"></iframe>
 {% endraw %}
 
-
-**These national numbers hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
+**These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # Learn more
 {:.no_toc}
