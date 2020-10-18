@@ -12,8 +12,10 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-# Trendlines for incidence rates & ICU capacity
+# Where France is going
 {:.no_toc}
+
+Here we can see the lag between the indicators: first `incid_tous` grows, then `incid_70+`, which causes `rea%` to grow.  
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
