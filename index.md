@@ -16,6 +16,7 @@ _**Mobile users**: view in landscape._
 {% endraw %}
 
 # How these trends impact hospitals
+{:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="85%"></iframe>
 {% endraw %}
@@ -106,13 +107,13 @@ In addition to the curfew, to slow the spread the following measures apply to th
 
 Go [here](region_kpi.html).
 
-### Why create yet more Covid infographics?
+## Why create yet more Covid infographics?
 
 The goal here is to see the alert statuses, possible restrictions, and the numbers that determine these alerts in one place. The official government sites are scattered, and either static images with a lot of dense text, or are interactive but do not show the indicators that determine alert levels. They are also hard to find.
 
 Other sites I've visited are overwhelming. This site is my attempt at finding a middle ground. {% raw %}<a href="mailto:sehosking@gmail.com?subject=Feedback for covid_dataviz"Your feedback is welcomed</a>{% endraw %}. 
 
-### Where can I see the official government stats on Covid-19
+## Where can I see the official government stats on Covid-19
 
 **The official alert map** with the most up-to-date numbers: 
 
