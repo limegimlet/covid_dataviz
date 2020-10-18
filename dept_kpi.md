@@ -1,7 +1,7 @@
 # Compare départements within a region
 {:.no_toc}
 
-NOTE: The `rea%` plots show the same line for all departements because it's calculated for the region as whole, not by department.
+NOTE: The `rea%` plots show the same line for all departements because it's calculated for the region as whole.
 
 * TOC
 {:toc}
@@ -35,26 +35,26 @@ NOTE: The `rea%` plots show the same line for all departements because it's calc
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_52.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Bretagne
+# Bretagne
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_53.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Nouvelle-Aquitaine
+# Nouvelle-Aquitaine
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_75.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Occitanie
+# Occitanie
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_76.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Auvergne-Rhône-Alpes
+# Auvergne-Rhône-Alpes
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_84.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Provence-Alpes-Côte d'Azur
+# Provence-Alpes-Côte d'Azur
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_93.html" height="1000" width="100%"></iframe>{% endraw %}
 
-## Corse
+# Corse
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_94.html" height="1000" width="100%"></iframe>{% endraw %}
