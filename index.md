@@ -23,6 +23,8 @@ The emphasis on slowing admissions to ICU is especially important for the second
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
+# How these trends impact hospitals
+
 {:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="85%"></iframe>
