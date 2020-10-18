@@ -2,12 +2,14 @@
 
 _**Mobile users**: view in landscape._
 
+<blockquote><b>UPDATE</b>: On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.</blockquote> 
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See **Data caveats** for more info.</sub>_
 
-# How are the alert indicators evolving?
+# What's the trend for incidence rates & ICU capacity?
 {:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
@@ -19,7 +21,7 @@ Meanwhile...
 {% endraw %}
 
 
-**These national numbers hide regional variations. You can compare regions and departments [on this page](region_kpi.html)**.
+**These national numbers hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # Learn more
 {:.no_toc}
@@ -86,7 +88,7 @@ NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
 
 #### État d’urgence sanitaire
 
-Le ministre des Solidarités et de la Santé n’a pour l’heure pas détaillé les mesures qui seraient décidées avec ce seuil d’alerte.
+n October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.
 
 ### How can I see regional breakdowns for the indicators?
 
@@ -98,16 +100,20 @@ The official government sites are not informative enough. They show either stati
 
 ### Where can I see the official government stats on Covid-19
 
-The ones that I've been referring to:
+**The official alert map** with the most up-to-date numbers: 
 
-* Ministère des Solidarités et Santé: [Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)
+* [Ministère des Solidarités et Santé : Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)
 
-_The official & most current alert map (albeit a static one) that is being emulated here (but please read **Data Caveats** section below). 
+The map is a static image followed by a long list of départements, which is what prompted me to create the interactive map here.
 
-* Santé Publique France: [COVID-19 : tableau de bord de l’épidémie en chiffres](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde#block-266151)
+NB: Due to data availability, there will be some differences between the two. Please read [About the data](about_data.html) 
 
-_Shows most recent case, hospitalization and death counts for France overall._
+**For the most recent case, hospitalization and death counts for France overall:**
 
-* gouvernement.fr : [Info coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
+* [Santé Publique France: COVID-19 : tableau de bord de l’épidémie en chiffres](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde#block-266151)
 
-_Interactive map of the hospitalization numbers from Santé Publique France._
+**For an iteractive map of the hospitalization and death counts from Santé Publique France:**
+
+* [gouvernement.fr : Info coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
+
+_
