@@ -1,7 +1,7 @@
 # Compare départements within a region
-{:notoc}
+{:.no_toc}
 
-NOTE: The `rea%` plots only show the same line for all departements because it's calculated for the region as whole, not by department.
+NOTE: The `rea%` plots show the same line for all departements because it's calculated for the region as whole, not by department.
 
 * TOC
 {:toc}
