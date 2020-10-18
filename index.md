@@ -2,7 +2,7 @@
 
 _**Mobile users**: view in landscape._
 
-# Where France is now
+# Where France is now<sup>*</sup>
 {:.no_toc}
 
 <blockquote><b>UPDATE</b>: On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.</blockquote> 
