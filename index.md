@@ -9,13 +9,13 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-# What's the trend for incidence rates & ICU capacity?
+# Trendlines for incidence rates & ICU capacity
 {:.no_toc}
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-Meanwhile...
+# How these trends impact hospitals
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="85%"></iframe>
 {% endraw %}
