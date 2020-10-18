@@ -88,7 +88,19 @@ NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
 
 #### État d’urgence sanitaire
 
-n October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.
+On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.
+
+In addition to the curfew, to slow the spread the following measures apply to the entire country:
+
+* No gatherings of more than 6 people in public.
+
+* Work from home at least 50 %.
+
+* Festive events in village halls or community centers are forbidden.
+
+* In enclosed spaces hosting seated spectators, a limit of 5 000 people, with a vacant seat between them. For other public-facing establishments where people are seated, the limit is 6 people.
+
+* Sports training facilities: openings allowed depending on the specific alert status of the département.
 
 ### How can I see regional breakdowns for the indicators?
 
@@ -96,7 +108,9 @@ Go [here](region_kpi.html).
 
 ### Why create yet more Covid infographics?
 
-The official government sites are not informative enough. They show either static images, or are interactive but do not show the indicators that determine alert levels & possible restrictions. They are also hard to find.
+The goal here is to see the alert statuses, possible restrictions, and the numbers that determine these alerts in one place. The official government sites are scattered, and either static images with a lot of dense text, or are interactive but do not show the indicators that determine alert levels. They are also hard to find.
+
+Other sites I've visited are overwhelming. This site is my attempt at finding a middle ground. {% raw %}<a href="mailto:sehosking@gmail.com?subject=Feedback for covid_dataviz"Your feedback is welcomed</a>{% endraw %}. 
 
 ### Where can I see the official government stats on Covid-19
 
@@ -116,4 +130,3 @@ NB: Due to data availability, there will be some differences between the two. Pl
 
 * [gouvernement.fr : Info coronavirus](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
 
-_
