@@ -6,7 +6,7 @@ On Oct 16 the good folks at data.gouv.fr/Santé Publique France made a new datas
 
 The list is fairly short; presumably these are metro areas considered most at risk (read: university towns).
 
-When you play this animation, it's not hard to understand why these metro areas were put under curfew.
+When you play this animation, it's not hard to understand why these metro areas were put under curfew. :rocket:
 
 {% raw %}<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed"></iframe>{% endraw %}
 
