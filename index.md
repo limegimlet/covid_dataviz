@@ -15,23 +15,13 @@ _**Mobile users**: view in landscape._
 # Where France is going
 {:.no_toc}
 
-Here we can see the lag between the indicators: first `incid_tous` grows, then `incid_70+`, which causes `rea%` to grow.  
-
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
-
-For the second wave the aim is to keep hospitals open for non-Covid patients and to protect exhausted ICU staff. It's lack of additional trained people, not ventilators or beds that is limiting capacity.
-
-Another other challenge for ICUs is that all regions are being hit at once this time. There is no longer the option to transfer patients to lesser-hit regions as Grand Est and Ile de France did during the first wave. 
-
-Nationwide, we are still just barely under that as of Oct 15. However there are departements that are already well above 60% ICU capacity.
-
-**These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # How these trends impact hospitals
 {:.no_toc}
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="400" width="85%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
