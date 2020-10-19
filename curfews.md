@@ -2,7 +2,7 @@
 
 On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, since midnight Oct 17 2020, 9 métropoles are under curfew from 21h to 06h for a minimum of 4 weeks, possibly extending to 6.
 
-On Oct 16 the good folks at data.gouv.fr/Santé Publique France made a new dataset available to track incidence rates & ICU capacity these & several other metropolitan areas in France. Woohoo, vive la transparence !
+On Oct 16 the good folks at data.gouv.fr/Santé Publique France made a new dataset available to track incidence rates & ICU capacity in these & a several other metropolitan areas. Vive la transparence !
 
 The list is fairly short; presumably these are metro areas considered most at risk (read: university towns).
 
