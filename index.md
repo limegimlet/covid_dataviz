@@ -36,7 +36,7 @@ Below you can see a corresponding rise in ICU arrivals around Sept 1. At this po
 
 # How is France doing compared to our neighbours?
 
-We're pretty high.
+We're pretty high, but some are catching up quickly.
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
