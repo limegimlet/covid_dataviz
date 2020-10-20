@@ -1,6 +1,6 @@
 # Curfews: are they working?
 
-The national health emergency declared on October 14 triggered several new restrictions. Most newsworthy: imposing curfew from 21h to 06h on 9 métropoles for a minimum of 4 weeks from midnight Oct 17 2020. It may be extended to 6 weeks if the vote passes in the national assembly and senate.
+The national health emergency declared on October 14 triggered several new restrictions. Most newsworthy: imposing a 21h - 06h curfew on 9 métropoles starting from midnight Oct 17 2020. It's for a minimum of 4 weeks and may be extended to 6 weeks, subject to a vote in the national assembly and senate.
 
 Shortly afterwards, a new dataset became available on data.gouv.fr to track incidence rates & ICU capacity in these & several other metropolitan areas. 
 
