@@ -8,6 +8,6 @@ Shortly afterwards, a new dataset became available on data.gouv.fr to track thes
 
 When you play the animation below, it's clear why these metros in particular were put under curfew.
 
-{% raw %}<iframe width="100%" height="50%" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed"></iframe>{% endraw %}
 
 As the days go by it will be interesting to see the trajectory for the curfew metros compared to non-curfew ones.  And to see if any other metropoles are moving into the curfew zone.
