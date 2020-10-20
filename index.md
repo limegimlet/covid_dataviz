@@ -20,17 +20,17 @@ As when driving a car, we can't expect to see an immediate slowdown: it will tak
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-# How these trends are playing out in hospitals
-{:.no_toc}
-
 A common argument that restrictions are exagerated and uncessesary is that hospitals numbers and deaths are relatively low despite high case numbers. That was true during the summer when it was overwhelmingly young people testing positive on the beach & mountains. 
 
 But since _la rentrée_ that's no longer the case as the generations mingled once back home. Now older people are increasingly testing positve. In the plot above you can see `incid_70+` speed up around Sept 1. (Double-click on legend to show only that indicator, and this uptick will be more obvious.)
 
+# How these trends are playing out in hospitals
+{:.no_toc}
+
+Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths had already started a slow rise that is now looking increasingly exponential. 
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
-
-You can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths had already started a slow rise that is now looking increasingly exponential. 
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
@@ -63,7 +63,6 @@ These are the levels defined by the government
 **Etat d'urgence sanitaire** | > 250 | > 100 | > 60
 
 Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
-
 
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population. 
 
