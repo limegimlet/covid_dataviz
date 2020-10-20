@@ -8,6 +8,6 @@ The list is fairly short; presumably these are metro areas considered most at ri
 
 When you play this animation, it's not hard to understand why these metro areas were put under curfew.
 
-{% raw %}<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed"></iframe>{% endraw %}
 
 Because of the 3-day reporting lag, the data still predates the start of the curfew period. But it will be interesting to compare how things evolve in curfew areas. And to see if any other metropoles are moving into the curfew zone.
