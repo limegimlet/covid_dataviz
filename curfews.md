@@ -1,4 +1,4 @@
-# Curfews: are they working?
+# Curfews: why some but not others?
 
 The national health emergency declared on October 14 triggered several new restrictions. 
 
