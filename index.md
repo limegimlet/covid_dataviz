@@ -1,11 +1,9 @@
-**Confused about alerts and restrictions in France?** Hover over this map to better understand the latest alert levels<sup>*</sup>. 
-
-_**Mobile users**: view in landscape._
-
 # Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b>: On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.</blockquote> 
+_**Mobile users**: view in landscape._
+
+<blockquote><b>UPDATE</b>: Since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks. </blockquote> 
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -15,11 +13,21 @@ _**Mobile users**: view in landscape._
 # Where France is going
 {:.no_toc}
 
+French incidence rates are currently one of the highest in Europe and still rising quickly. Yet to spare the economy, we're apply the brakes gently compared to our neighbours with lower numbers. 
+
+As when driving a car, we can't expect to see an immediate slowdown: it will take longer to see flattening, but hopefully one that's sustainable.
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-# How these trends are impacting hospitals
+A common argument that restrictions are exagerated and uncessesary is that hospitals numbers and deaths are relatively low despite high case numbers. That was true during the summer when it was overwhelmingly young people testing positive on the beach & mountains. 
+
+But since _la rentrée_ that's no longer the case as the generations mingled once back home. Now older people are increasingly testing positve. In the plot above you can see `incid_70+` speed up around Sept 1. (Double-click on legend to show only that indicator, and this uptick will be more obvious.)
+
+# How these trends are playing out in hospitals
 {:.no_toc}
+
+Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths had already started a slow rise that is now looking increasingly exponential. 
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
@@ -32,7 +40,7 @@ _**Mobile users**: view in landscape._
 * TOC
 {:toc}
 
-## Alert FAQs
+## Alert FAQ
 
 ### What does the info in the map hover boxes mean?
 
@@ -55,7 +63,6 @@ These are the levels defined by the government
 **Etat d'urgence sanitaire** | > 250 | > 100 | > 60
 
 Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
-
 
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population. 
 
