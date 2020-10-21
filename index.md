@@ -1,19 +1,19 @@
-# Where France is now<sup>*</sup>
-{:.no_toc}
-
 _**Mobile users**: view in landscape._
 
-<blockquote><b>UPDATE</b>: Since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks. </blockquote> 
+# Covid-19: Where France is now<sup>*</sup>
+{:.no_toc}
+
+<blockquote><b>UPDATE</b>: Since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks. <a href src="curfews.html">More info here.</a></blockquote> 
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-**<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
+**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
 # Where France is going
 {:.no_toc}
 
-French incidence rates are currently one of the highest in Europe and still rising quickly. Yet to spare the economy, we're apply the brakes gently compared to our neighbours with lower numbers. 
+French incidence rates are currently one of the highest in Europe and still rising quickly. Yet to spare the economy, we're still applying the brakes gently. 
 
 As when driving a car, we can't expect to see an immediate slowdown: it will take longer to see flattening, but hopefully one that's sustainable.
 
@@ -22,17 +22,44 @@ As when driving a car, we can't expect to see an immediate slowdown: it will tak
 
 A common argument that restrictions are exagerated and uncessesary is that hospitals numbers and deaths are relatively low despite high case numbers. That was true during the summer when it was overwhelmingly young people testing positive on the beach & mountains. 
 
-But since _la rentrée_ that's no longer the case as the generations mingled once back home. Now older people are increasingly testing positve. In the plot above you can see `incid_70+` speed up around Sept 1. (Double-click on legend to show only that indicator, and this uptick will be more obvious.)
+But since _la rentrée_ that's no longer the case as the generations mingled once back home. 
 
-# How these trends are playing out in hospitals
+Now older people are increasingly testing positve. In the plot above you can see `incid_70+` speed up around Sept 1. (Double-click on legend to show only that indicator, and this uptick will be more obvious.)
+
+## The takeaway: Covid-19 is slow-acting
 {:.no_toc}
 
-Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths had already started a slow rise that is now looking increasingly exponential. 
+An important takeaway here is with Covid-19: it normally takes a while before you feel it. This applies both to individuals infected _and_ symptomatic, and to society at large.
+
+When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind: 
+
+<blockquote>With widespread testing–as there was in France since mid-July–there will be a step-wise delay between the rises in overall incidence rate (incid_tous), elderly incidence rate (incid_70+), and ICU occupancy (rea%).</blockquote> 
+
+And, unfortunately, deaths.
+
+Speaking of which...
+
+# How these trends play out in hospitals
+{:.no_toc}
+
+Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths (`dc`) had already started a slow rise that is now looking increasingly exponential. 
+
+(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
+
+# How is France doing compared to our neighbours?
+{:.no_toc}
+
+Oct 19: We're up there, but looks like we'll soon have company. 
+
+My big question is what are people in Italy & Germany doing that they were able to stay so low for so long. And what finally triggered their recent upticks?
+
+{% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+{% endraw %}
 
 # Learn more
 {:.no_toc}
