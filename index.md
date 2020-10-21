@@ -29,7 +29,7 @@ Now older people are increasingly testing positve. In the plot above you can see
 ## The takeaway: Covid-19 is slow-acting
 {:.no_toc}
 
-An important takeaway here is with Covid-19: it normally takes a while before you feel it. This applies both to individuals infected _and_ symptomatic, and to society at large.
+An important takeaway with Covid-19: it normally takes a while before you feel it. This applies both to individuals (symptomatic ones, at least), and to society at large.
 
 When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind: 
 
