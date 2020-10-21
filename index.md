@@ -31,7 +31,9 @@ Now older people are increasingly testing positve. In the plot above you can see
 
 An important takeaway here is with Covid-19: it normally takes a while before you feel it. This applies both to individuals infected _and_ symptomatic, and to society at large.
 
-So when people dismiss a rise in incidence rates by pointing to empty hospitals, you need to keep in mind that **if there is widespread testing** (as there was in France since mid-July), **there will be a step-wise lag between the rises in overall incidence rate (`incid_tous`), elderly incidence rate (`incid_70+`), and ICU occupancy (`rea%`)**. And, unfortunately, deaths.
+When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind: <blockquote>With widespread testing–as there was in France since mid-July–there will be a step-wise delay between the rises in overall incidence rate (`incid_tous`), elderly incidence rate (`incid_70+`), and ICU occupancy (`rea%`)</blockquote>. 
+
+And, unfortunately, deaths.
 
 Speaking of which...
 
