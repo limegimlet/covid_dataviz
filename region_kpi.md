@@ -1,5 +1,5 @@
 
-# Compare regions
+# Compare regions (under contruction)
 {:.no_toc}
 
 Compare indicator trendlines for the regions of mainland France (they take a few seconds to load).
