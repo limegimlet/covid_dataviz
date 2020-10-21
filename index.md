@@ -53,7 +53,9 @@ Below you can see a corresponding rise in ICU arrivals around Sept 1. At this po
 
 # How is France doing compared to our neighbours?
 
-Oct 19: We're up there, but several countries are catching up quickly.
+Oct 19: We're up there, but looks like we'll soon have company. 
+
+My big question is what are people in Italy & Germany doing that they were able to stay so low for so long. And what finally triggered their recent upticks?
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
