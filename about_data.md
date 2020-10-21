@@ -1,4 +1,4 @@
-# About the data
+# About the data (under construction)
 
 The data here is meant to help you understand how Covid-19 is evolving in different areas of France. The goal is to give you more context beyond a increasingly-alarming case numbers announced for a certain date.
 
