@@ -42,7 +42,7 @@ Speaking of which...
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths (`dc`) had already started a slow rise that is now looking increasingly exponential. 
+Below you can see a corresponding rise in ICU arrivals around September 1st. At this point, deaths (`dc`) had already started a slow rise that is by mid-October is looking increasingly exponential. 
 
 (The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
 
