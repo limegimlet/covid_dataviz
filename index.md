@@ -29,7 +29,7 @@ Now older people are increasingly testing positve. In the plot above you can see
 ## The takeaway: Covid-19 is slow-acting
 {:.no_toc}
 
-An important takeaway here is with Covid-19: it normally takes a while before you feel it. This applies both to individuals infected _and_ symptomatic, and to society at large.
+An important takeaway with Covid-19: it normally takes a while before you feel it. This applies both to individuals (symptomatic ones, at least), and to society at large.
 
 When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind: 
 
@@ -42,7 +42,7 @@ Speaking of which...
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a corresponding rise in ICU arrivals around Sept 1. At this point, deaths (`dc`) had already started a slow rise that is now looking increasingly exponential. 
+Below you can see a corresponding rise in ICU arrivals around September 1st. At this point, deaths (`dc`) had already started a slow rise that is by mid-October is looking increasingly exponential. 
 
 (The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
 
