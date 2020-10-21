@@ -52,6 +52,7 @@ Below you can see a corresponding rise in ICU arrivals around Sept 1. At this po
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # How is France doing compared to our neighbours?
+{:.no_toc}
 
 Oct 19: We're up there, but looks like we'll soon have company. 
 
