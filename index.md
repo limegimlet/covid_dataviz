@@ -8,7 +8,7 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-**<sup>*</sup>** _<sub>based on latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
+**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
 # Where France is going
 {:.no_toc}
