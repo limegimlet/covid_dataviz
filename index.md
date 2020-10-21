@@ -33,7 +33,7 @@ An important takeaway here is with Covid-19: it normally takes a while before yo
 
 When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind: 
 
-<blockquote>With widespread testing–as there was in France since mid-July–there will be a step-wise delay between the rises in overall incidence rate (`incid_tous`), elderly incidence rate (`incid_70+`), and ICU occupancy (`rea%`).</blockquote> 
+<blockquote>With widespread testing–as there was in France since mid-July–there will be a step-wise delay between the rises in overall incidence rate (incid_tous), elderly incidence rate (incid_70+), and ICU occupancy (rea%).</blockquote> 
 
 And, unfortunately, deaths.
 
