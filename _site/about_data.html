@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180714987-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180714987-1');
+</script>
+
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180714987-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-180714987-1');
+      </script>
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>About this site | Visualize Covid-19 in France</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="About this site" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Get informed, not overwhelmed" />
+<meta property="og:description" content="Get informed, not overwhelmed" />
+<link rel="canonical" href="http://localhost:4000/about_data.html" />
+<meta property="og:url" content="http://localhost:4000/about_data.html" />
+<meta property="og:site_name" content="Visualize Covid-19 in France" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/about_data.html","headline":"About this site","description":"Get informed, not overwhelmed","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=040006ec00b045f5e4bddf5120f6d05948fa5fb2">
+  </head>
+  <body>
+    <header class="page-header"
+    role="banner">
+      <h1 class="project-name">Visualize Covid-19 in France</h1>
+      <h2 class=".project-tagline">Get informed, not overwhelmed</h2>
+    </header>
+    <main id="content" class="main-content" role="main">
+      <a href="https://limegimlet.github.io/covid_dataviz/">Overview</a> | <a href="https://limegimlet.github.io/covid_dataviz/region_kpi.html">By region</a> |
+      <a href="https://limegimlet.github.io/covid_dataviz/dept_kpi.html">By department</a> | <a href="https://limegimlet.github.io/covid_dataviz/curfews.html">By metropole</a>
+      | <a href="https://limegimlet.github.io/covid_dataviz/about_data.html">About</a>
+      <h1 id="about-this-site">About this site</h1>
+
+<p>The data here is meant to help you understand how Covid-19 is evolving in different areas of France.</p>
+
+<p>The goal is to give you more context beyond increasingly-alarming case numbers: Is that good or bad? Are we heading up or down?</p>
+
+<p>To that end (in case you haven’t already noticed) these plots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend.</p>
+
+<p>Oh, and mobile users: <em>please turn your phone <strong>sideways</strong>.</em></p>
+
+<h3 id="coming-soon">Coming soon</h3>
+
+<ul>
+  <li>
+    <p><strong>tracking the curfew areas</strong> - where Covid is the most active - to see how if/when/how fast the case counts &amp; ICU occupancy goes down. Curfew started on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.</p>
+  </li>
+  <li>
+    <p><strong>adding alert thresholds</strong> to the indicator plots, which helps put the Covid curves in perspective.</p>
+  </li>
+  <li>
+    <p><strong>creating a map of the metropoles under curfew</strong></p>
+  </li>
+  <li>
+    <p><strong>discussing how testing influences incidence rates</strong></p>
+  </li>
+</ul>
+
+<h2 id="about-covid-19-data">About Covid-19 data</h2>
+
+<p>To borrow a phrase from economists, there’s no such thing as a perfect dataset. Covid-19 data is the embodiment of this. It’s extremely hard to establish any certainties with a novel virus that spreads so easily, manifests with such varied symptoms and outcomes, and wreaks literal havoc across so much of the world.</p>
+
+<p>In such a fast-evolving environment, data collection is not going to be exhaustive, nor ideal. The New York Times, Le Monde, The Guardian and the Canadian Broadcasting Company, just to name my go-to information sources as a layperson, have all reported stories of delayed results, not enough testing of asymptomatics, technical snafus, among other problems.</p>
+
+<p>This applies to all Covid-19 data, not just what is visualized here.</p>
+
+<p>Nonetheless, even if Covid data is not 100% accurate, it still provides decent benchmarks of where we are, and rough signposts of where we might be heading in near future.</p>
+
+<h2 id="about-this-data-data-caveats">About this data (data caveats)</h2>
+
+<p>These maps display Covid-19 indicator values. <strong>The values are merely an approximation of the official government figures</strong> used to determine if a threshold has been reached.</p>
+
+<p>I cannot replicate government figures completely due to the following:</p>
+
+<ul>
+  <li>
+    <p>a 3-day lag in testing numbers. Since incidence rates are based on testing data, the ‘latest’ <code class="language-plaintext highlighter-rouge">incid_tous</code> &amp; <code class="language-plaintext highlighter-rouge">incid_70+</code> values here will always from at least 3 days earlier.</p>
+  </li>
+  <li>
+    <p><em>Personnes agées</em> for the French government means people 65 or older. However, the publicly-available, daily testing data only breaks down age in 10-year increments. As a result the maps here show incidence rates for people 70 or older( <code class="language-plaintext highlighter-rouge">incid_70+</code>). In other words, they are understated compared to official government figures.</p>
+  </li>
+  <li>
+    <p>The government examines overall incidence rates for the major metropolitan in France when classifiying its surrounding département. Until Oct 15 2020 there wasn’t any data on these metropoles, so I’ve applied those thresholds to departments instead. This likely means the overall incidence rate in these maps (<code class="language-plaintext highlighter-rouge">incid_tous</code>) is also understated compared to official figures.</p>
+  </li>
+</ul>
+
+<h2 id="about-me">About me</h2>
+
+<p>Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space.</p>
+
+<p>Upshot: I’ve spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of searching/accessing/analyzing/distributing data with them. Rinse and repeat.</p>
+
+<p>After years of this I became more interested in learning how to access &amp; analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.</p>
+
+<p>That’s how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months.</p>
+
+<p>With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, I realized it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?</p>
+
+<h2 id="data-sources">Data sources</h2>
+
+<p>The Covid-19 data comes from Santé Publique France and is updated daily at 19h15 Paris time.</p>
+
+<p>The plots here are updated shortly afterwards, usually by 21h Paris time.</p>
+
+<ul>
+  <li><a href="https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/">Daily counts of positive tests &amp; total tests</a></li>
+  <li><a href="https://www.data.gouv.fr/en/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/">Daily totals Covid-19 hospitalizations &amp; ICU occupancy</a></li>
+  <li><a href="https://www.data.gouv.fr/en/datasets/indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole">Daily incidence rates for metropoles</a></li>
+</ul>
+
+<p>Other data sources:</p>
+
+<ul>
+  <li><a href="https://www.insee.fr/fr/statistiques/4265439?sommaire=4265511">INSEE population by dept</a></li>
+  <li><a href="https://www.insee.fr/fr/statistiques/1893198">INSEE population by dept &amp; age group</a></li>
+  <li><a href="https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/article/nombre-de-lits-de-reanimation-de-soins-intensifs-et-de-soins-continus-en-france">ICU beds by department</a></li>
+  <li><a href="https://static.data.gouv.fr/resources/carte-des-departements-2-1/20191202-212236/contour-des-departements.geojson">French departments geojson</a></li>
+  <li><a href="https://public.opendatasoft.com/explore/dataset/geoflar-communes-2013/download/?format=geojson&amp;timezone=Europe/Berlin&amp;lang=en">lat &amp; long coordinates for curfew metropoles</a>
+    <ul>
+      <li>NB: This data now directly available on gouv.donnees.fr, will switch to this shortly.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When I started in April 2020, there wasn’t as much data available—or at least findable—so I’ve done additional data processing to:</p>
+
+<ul>
+  <li>
+    <p>create rolling 7-day sums for positive tests and total number of tests</p>
+  </li>
+  <li>
+    <p>calculate incidence rates for entire population as well as incidence rates for the 70+ age group</p>
+  </li>
+  <li>
+    <p>calculate percentage of ICU beds occupied by Covid patients</p>
+  </li>
+  <li>
+    <p>classify each département according to the alert thresholds described above…to the best of my ability with publicly-available data. See ‘Data Caveats’ above.</p>
+  </li>
+</ul>
+
+<p>Even though rolling 7-day averages and taux d’incidence are now available pre-calculated on data.gouv.fr, I prefer to keep working with daily “raw” numbers, especially as it allows me to see testing numbers (which I hope to share more here soon).</p>
+
+<ul>
+  <li>The exception is metropole incidence rate data, which for now are only available pre-calculated.</li>
+</ul>
+
+<p>You can find my data processing scripts <a href="https://github.com/limegimlet/covid19/tree/master">here</a>.</p>
+
+      <footer class="site-footer">
+       
+          <span class="site-footer-owner"><a href="https://github.com/limegimlet/covid_dataviz">covid_dataviz</a> is maintained by <a href="https://github.com/limegimlet">limegimlet</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+         &copy; 2020 Sarah Hosking
+        
+        
+      </footer>
+    </main>
+  </body>
+
+</html>
