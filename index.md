@@ -10,7 +10,7 @@ Interpretation note: the colorscale maxes-out at 60, the highest alert threshold
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/map_rea_region.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-ICU occupancy (`rea%`) is calculated at the region level because the hospitals are managed at the regional level (by Agence Regionals de Santé ,or ARS), so it takes into account the possibility of transferring patients to elsewhere in the region with less pressure.
+ICU occupancy (`rea%`) is calculated for the region because hospitals are managed at the regional level (by Agence Regionals de Santé ,or ARS), so takes into account the possibility of transferring patients to elsewhere in the region.
 
 Here is what ICU % occupation looks like at the department level. The same colorscale max applies, which means that many departments showing the darkest colors may be well over 60% ICU saturation.
 
