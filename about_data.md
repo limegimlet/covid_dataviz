@@ -44,9 +44,9 @@ I cannot replicate government figures completely due to the following:
 
 ## About me
 
-I've spent most of my professional life as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space. 
+Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space. 
 
-Upshot: I've spent a lot of time learning new, complex tools quickly, just to explain to techie types the ABCs of searching/accessing/analyzing/distributing data with them. Rinse and repeat.
+Upshot: I've spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of searching/accessing/analyzing/distributing data with them. Rinse and repeat.
 
 After years of this I became more interested in learning how to access & analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.
 
