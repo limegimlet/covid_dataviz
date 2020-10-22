@@ -56,7 +56,7 @@ With the arrival of the second wave and accompanying media blitz of stats, alert
 
 ## Data sources
 
-The Covid-19 data comes from Santé Publique France which updates daily at 19h15 Paris time. 
+The Covid-19 data comes from Santé Publique France and is updated daily at 19h15 Paris time. 
 
 The plots here are updated shortly afterwards, usually by 21h Paris time.
 
