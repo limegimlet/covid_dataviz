@@ -1,12 +1,14 @@
 # About this site (under construction)
 
-The data here is meant to help you understand how Covid-19 is evolving in different areas of France. My goal right now is to give you more context beyond increasingly-alarming case numbers announced for a certain date. Is that good or bad? Are we heading up or down?
+The data here is meant to help you understand how Covid-19 is evolving in different areas of France. 
 
-To that end, in case you haven't already noticed, the plots here all interactive: you can zoom in on a area of a plot to get more detail, or isolate only a few lines on a plot by clicking the legend. 
+The goal is to give you more context beyond increasingly-alarming case numbers: Is that good or bad? Are we heading up or down?
 
-Oh and mobile users: turn your phone **sideways**.
+To that end (in case you haven't already noticed) theselots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend. 
 
-**Coming soon**
+Oh, and mobile users: _please turn your phone **sideways**._
+
+### Coming soon
 
 * **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew starts on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.
 
@@ -15,6 +17,7 @@ Oh and mobile users: turn your phone **sideways**.
 * **creating a map of the metropoles under curfew**
 
 * **discussing how testing influences incidence rates** 
+
 ## About Covid-19 data
 
 To borrow a phrase from economists, there's no such thing as a perfect dataset. Covid-19 data is the embodiment of this. It's extremely hard to establish any certainties with a novel virus that spreads so easily, manifests with such varied symptoms and outcomes, and wreaks literal havoc across so much of the world.
@@ -23,9 +26,9 @@ In such a fast-evolving environment, data collection is not going to be exhausti
 
 This applies to all Covid-19 data, not just what is visualized here. 
 
-Nonetheless, even if this data is not 100% accurate, it still provides decent benchmarks of where we are, and rough signposts of where we might be heading in near future. 
+Nonetheless, even if Covid data is not 100% accurate, it still provides decent benchmarks of where we are, and rough signposts of where we might be heading in near future. 
 
-## About the data here (data caveats)
+## About this data (data caveats)
 
 These maps display Covid-19 indicator values. **The values are merely an approximation of the official government figures** used to determine if a threshold has been reached.
 
@@ -41,17 +44,15 @@ I cannot replicate government figures completely due to the following:
 
 ## About me
 
-I've spent most of my professional life as a technical communicator, or herding others, at enterprise software firms. Usually in the search/analytics/business intelligence space. 
+I've spent most of my professional life as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space. 
 
-Upshot: I've spent a lot of time learning new, complex tools quickly, just to explain to folks more techie than myself the ABCs of how to search/access/analyze/distribute data with them. Rinse and repeat.
+Upshot: I've spent a lot of time learning new, complex tools quickly, just to explain to techie types the ABCs of searching/accessing/analyzing/distributing data with them. Rinse and repeat.
 
-After years of this I became more interested in learning how to access & analyze data myself, beyond ABC. At the command line with open-source librairies rather than in a UI on enterprise platforms.
+After years of this I became more interested in learning how to access & analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.
 
 That's how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months. 
 
-With the arrival of the second wave and accompanying media blitz of stats, alert levels, and heatmaps, I realized it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?
-
-So that's why I decided to dust-off my tech comm hat and make a stab at putting together something more digestible.
+With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, I realized it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?
 
 ## Data sources
 
@@ -84,6 +85,5 @@ When I started in April 2020, there wasn't as much data available—or at least 
 Even though rolling 7-day averages and taux d'incidence are now available pre-calculated on data.gouv.fr, I prefer to keep working with daily "raw" numbers, especially as it allows me to see testing numbers (which I hope to share more here soon). 
 
 * The exception is metropole incidence rate data, which for now are only available pre-calculated.
-
 
 You can find my data processing scripts [here](https://github.com/limegimlet/covid19/tree/master).
