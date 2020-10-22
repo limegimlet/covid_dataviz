@@ -10,7 +10,7 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 ### Coming soon
 
-* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew starts on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.
+* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew started on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.
 
 * **adding alert thresholds** to the indicator plots, which helps put the Covid curves in perspective.
 
@@ -56,7 +56,9 @@ With the arrival of the second wave and accompanying media blitz of stats, alert
 
 ## Data sources
 
-The Covid-19 data comes from Santé Publique France:
+The Covid-19 data comes from Santé Publique France which updates daily at 19h15 Paris time. 
+
+The plots here are updated shortly afterwards, usually by 21h Paris time.
 
 * [Daily counts of positive tests & total tests](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)
 * [Daily totals Covid-19 hospitalizations & ICU occupancy](https://www.data.gouv.fr/en/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
