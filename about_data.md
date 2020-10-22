@@ -4,13 +4,15 @@ The data here is meant to help you understand how Covid-19 is evolving in differ
 
 To that end, in case you haven't already noticed, the plots here all interactive: you can zoom in on a area of a plot to get more detail, or isolate only a few lines on a plot by clicking the legend. 
 
-Oh, and mobile users: turn your phone **sideways**.
+Oh and mobile users: turn your phone **sideways**.
 
 **Coming soon**
 
-* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew starts on Sat October 17 at 21h00. Progress will be slow: it will take two weeks minimum according to exports to expect any changes, but being able to visualize progress is always motivating.
+* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew starts on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.
 
 * **adding alert thresholds** to the indicator plots, which helps put the Covid curves in perspective.
+
+* **creating a map of the metropoles under curfew**
 
 ## About Covid-19 data
 
@@ -34,7 +36,7 @@ I cannot replicate government figures completely due to the following:
 * _Personnes agées_ for the French government means people 65 or older. However, the publicly-available, daily testing data only breaks down age in 10-year increments. As a result the maps here show incidence rates for people 70 or older( `incid_70+`). In other words, they are understated compared to official government figures.
 
 
-* The government examines overall incidence rates for the major metropolitan in France when classifiying a département. These are Paris, Rennes, Bordeaux, Toulouse, Montpellier, Marseilles, Lyon, Grenoble and Lille. However publicly-available testing data is by département, not commune. Paris is the only city with its own département. This likely means the overall incidence rate in these maps (`incid_tous`) is also understated.
+* The government examines overall incidence rates for the major metropolitan in France when classifiying its surrounding département. Until Oct 15 2020 there wasn't any data on these metropoles, so I've applied those thresholds to departments instead. This likely means the overall incidence rate in these maps (`incid_tous`) is also understated compared to official figures.
 
 ## Data sources
 
