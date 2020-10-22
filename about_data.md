@@ -1,4 +1,4 @@
-# About this site (under construction)
+# About this site
 
 The data here is meant to help you understand how Covid-19 is evolving in different areas of France. 
 
