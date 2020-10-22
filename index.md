@@ -3,7 +3,11 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
+<<<<<<< HEAD
 <blockquote><b>MAP CHANGE</b> ICUs are filling up quickly, especially in Auvergne-Rhône-Alpes. To better understand how critical the situation is, the general alert map has been replaced by maps of ICU % occupancy (`rea%`), which is also more up-to-date. <br><br>You can still find the latest<sup>*</sup> alert map <a href src="https://limegimlet.github.io/covid_dataviz/alerts.html">here.</a></blockquote>
+=======
+<blockquote><b>MAP CHANGE</b> ICUs are filling up quickly, especially in Auvergne-Rhône-Alpes. To better understand how critical the situation is, the general alert map has been replaced by maps of ICU % occupancy (`rea%`), which is also more up-to-date. <br><br>You can still find the latest<sup>*</sup> alert map <a href src="alerts.html">here.</a></blockquote>
+>>>>>>> parent of e26ea35... fix: link
 
 ### ICU % saturation by region
 {:.no_toc}
