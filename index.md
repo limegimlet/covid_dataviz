@@ -3,9 +3,18 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b>: Since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks. <a href src="curfews.html">More info here.</a></blockquote> 
+<blockquote><b>MAP CHANGE</b> ICUs are filling up quickly, especially in Auvergne-Rhône-Alpes. To better understand how critical the situation is, the general alert map has been replaced by maps of ICU % occupancy. They also are also more recent (data available from previous day). You can still find the latest alert map <a href src="alerts.html">here.</a></blockquote> 
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
+Interpretation note: the colorscale maxes-out at 60, the highest alert threshold for ICU occupancy. However there are currently (Oct 22) regions higher than 60.
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/map_rea_region.html" height="600" width="100%"></iframe>
+{% endraw %}
+
+ICU occupancy (`rea%`) is calculated at the region level because the hospitals are managed at the regional level (by Agence Regionals de Santé ,or ARS), so it takes into account the possibility of transferring patients to elsewhere in the region with less pressure.
+
+Here is what ICU % occupation looks like at the department level. The same colorscale max applies, which means that many departments showing the darkest colors may be well over 60% ICU saturation.
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/map_rea_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
