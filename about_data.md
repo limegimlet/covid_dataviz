@@ -4,7 +4,7 @@ The data here is meant to help you understand how Covid-19 is evolving in differ
 
 The goal is to give you more context beyond increasingly-alarming case numbers: Is that good or bad? Are we heading up or down?
 
-To that end (in case you haven't already noticed) theselots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend. 
+To that end (in case you haven't already noticed) these plots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend. 
 
 Oh, and mobile users: _please turn your phone **sideways**._
 
