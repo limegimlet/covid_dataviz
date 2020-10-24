@@ -23,7 +23,7 @@ As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity.
 
 The map below shows how much `rea%` varies by department.
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dep.html" height="600" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
 
 It looks like they are some departments with fairly high `rea%` but still without a curfew.
