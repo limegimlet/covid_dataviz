@@ -5,7 +5,7 @@ _**Mobile users**: view in landscape._
 
 <blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the Alert map below.</blockquote>
 
-But before you look at yet another curfew map, let's look at _why_ we're going into curfew.
+But before you look at yet another curfew map, let's look at _why_ so many of us are under curfew.
 
 ## ICUs are hurting
 {:.no_toc}
