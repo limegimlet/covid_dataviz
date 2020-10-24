@@ -5,6 +5,38 @@ _**Mobile users**: view in landscape._
 
 <blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the map below. <br>To better understand curfew decisions, the hover info now includes ICU saturation by department (rea%_dep), as well as by region (rea%).</blockquote>
 
+But before you look at yet another curfew map, let's look at **_why_ we're going into curfew**.
+
+## ICUs are hurting
+{:.no_toc}
+
+ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
+
+The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the upper limit is 60.
+
+As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity.
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
+{% endraw %}
+
+<blockquote>FYI: hospital covid numbers are available the next day, but there's a 3-day wait for "latest" incidence rates. That's why the dates are different between ICU maps & alert maps.</blockquote>
+
+The map below shows how much `rea%` varies by department.
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dep.html" height="600" width="100%"></iframe>
+{% endraw %}
+
+It looks like they are some departments with fairly high `rea%` but still without a curfew.
+
+I'm speculating this could be because their `rea%` is already on the way down? That's the case in Eure (Normandie): tt was in the low 80s a few days back.
+
+Another possibility is when a department has very few beds, but adjacent departments have capacity.
+
+## Back to alerts & curfews
+{:.no_toc}
+
+At the department level, France has packed away 'OK' and 'Vigilance' for a while.
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
@@ -13,50 +45,31 @@ _**Mobile users**: view in landscape._
 # Where France is going
 {:.no_toc}
 
-French incidence rates are currently one of the highest in Europe and still rising quickly. Yet to spare the economy, we're still applying the brakes gently.
-
-As when driving a car, we can't expect to see an immediate slowdown: it will take longer to see flattening, but hopefully one that's sustainable.
+The curves show that incidence rate for the elderly are growing faster than overall incidence rate. In early September, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag is only 3 days.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-A common argument that restrictions are exagerated and uncessesary is that hospitals numbers and deaths are relatively low despite high case numbers. That was true during the summer when it was overwhelmingly young people testing positive on the beach & mountains.
+Granted, incidence rates are heavily subject to 'testing bias'. For example, since mid-September there's been a change in testing strategy to reduce bottlenecks by  prioritizing those who are symptomatic, who are also more likely to be older.
 
-But since _la rentrée_ that's no longer the case as the generations mingled once back home.
-
-Now older people are increasingly testing positve. In the plot above you can see `incid_70+` speed up around Sept 1. (Double-click on legend to show only that indicator, and this uptick will be more obvious.)
-
-## The takeaway: Covid-19 is slow-acting
-{:.no_toc}
-
-An important takeaway with Covid-19: it normally takes a while before you feel it. This applies both to individuals (symptomatic ones, at least), and to society at large.
-
-When people dismiss a rise in incidence rates by pointing to empty hospitals, keep this in mind:
-
-<blockquote>With widespread testing–as there was in France since mid-July–there will be a step-wise delay between the rises in overall incidence rate (incid_tous), elderly incidence rate (incid_70+), and ICU occupancy (rea%).</blockquote>
-
-And, unfortunately, deaths.
-
-Speaking of which...
+However, the ICU trends don't suffer from bias.
 
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a corresponding rise in ICU arrivals around September 1st. At this point, deaths (`dc`) had already started a slow rise that is by mid-October is looking increasingly exponential.
-
-(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
+Below you can see a rise in ICU arrivals around September 1st. Deaths (`dc`) had already started a slow rise that in late October is looking increasingly exponential.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
+
+(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # How is France doing compared to our neighbours?
 {:.no_toc}
 
-Oct 19: We're up there, but looks like we'll soon have company.
-
-My big question is what are people in Italy & Germany doing that they were able to stay so low for so long. And what finally triggered their recent upticks?
+Oct 23: In an odd coincidence, the countries where French is spoken are all at the top.
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
