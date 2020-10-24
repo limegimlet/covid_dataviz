@@ -3,7 +3,7 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b>: As of midnight Oct 23 2020, <b>54 departments will be under curfew from 21h to 06h</b>. More info + updated map coming soon.</blockquote>
+<blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the map below. <br>To better understand curfew decisions, the hover info now includes ICU saturation by department (rea%_dep), as well as by region (rea%).</blockquote>
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
