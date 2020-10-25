@@ -10,15 +10,16 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 ### Coming soon
 
-* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew started on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating.
+* **tracking the curfew areas** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew started on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating. IN PROGRESS
 
-* **adding alert thresholds** to the indicator plots, which helps put the Covid curves in perspective.
+* **adding alert thresholds** to the indicator plots, which helps put the Covid curves in perspective. IN PROGRESS
 
-* **adding summary of departments with where alert levels are going up
-
-* **discussing how testing influences incidence rates**
+* **adding summary of departments where alert levels are going up vs down** IN PROGRESS
 
 * **creating a map of the ~~metropoles~~ departments under curfew** DONE
+
+* **discussing how testing influences incidence rates** 
+
 
 ## About Covid-19 data
 
