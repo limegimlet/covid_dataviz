@@ -12,7 +12,7 @@ Before you look at yet another curfew map, please look at _why_ so many of us ar
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
-The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the upper limit is 60%.
+The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the alerte maximale threshold is "only" at 60%.
 
 As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity, with [elective surgery already being postponed in IdF](https://www.liberation.fr/france/2020/10/08/le-covid-chamboule-de-nouveau-les-hopitaux-franciliens_1801793){:target="_blank"}.
 
