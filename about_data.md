@@ -18,7 +18,7 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 * **creating a map of the ~~metropoles~~ departments under curfew** DONE
 
-* **discussing how testing influences incidence rates** 
+* **discussing how testing influences incidence rates**
 
 
 ## About Covid-19 data
@@ -44,18 +44,6 @@ I cannot replicate government figures completely due to the following:
 
 
 * The government examines overall incidence rates for the major metropolitan in France when classifiying its surrounding département. Until Oct 15 2020 there wasn't any data on these metropoles, so I've applied those thresholds to departments instead. This likely means the overall incidence rate in these maps (`incid_tous`) is also understated compared to official figures.
-
-## About me
-
-Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space.
-
-Upshot: I've spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of getting and analyzing data with them.
-
-After years of this I became more interested in learning how to analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.
-
-That's how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months.
-
-With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?
 
 ## Data sources
 
@@ -93,3 +81,15 @@ Even though rolling 7-day averages and taux d'incidence are now available pre-ca
 * The exception is metropole incidence rate data, which for now are only available pre-calculated.
 
 You can find my data processing scripts [here](https://github.com/limegimlet/covid19/tree/master).
+
+## About me
+
+Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space.
+
+Upshot: I've spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of getting and analyzing data with them.
+
+After years of this I became more interested in learning how to analyze data myself, at the command line with open-source librairies.
+
+That's how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months.
+
+With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes, at least) is overwhelmed, what about everyone else?
