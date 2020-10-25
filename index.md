@@ -3,18 +3,18 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the Alert map below.</blockquote>
+<blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the Alert map further down.</blockquote>
 
-But before you look at yet another curfew map, let's look at _why_ so many of us are under curfew.
+Before you look at yet another curfew map, please look at _why_ so many of us are under curfew.
 
 ## ICUs are hurting
 {:.no_toc}
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
-The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the upper limit is 60.
+The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the upper limit is 60%.
 
-As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity.
+As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity, with [elective surgery already being postponed in IdF](https://www.liberation.fr/france/2020/10/08/le-covid-chamboule-de-nouveau-les-hopitaux-franciliens_1801793){:target="_blank"}.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -26,7 +26,7 @@ The map below shows how much `rea%` varies by department.
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-It looks like they are some departments with fairly high `rea%` but still without a curfew.
+It looks like there are some departments with fairly high `rea%` but still without a curfew.
 
 I'm speculating this could be because their `rea%` is already on the way down? That's the case in Eure (Normandie): tt was in the low 80s a few days back.
 
@@ -35,7 +35,7 @@ Another possibility is when a department has very few beds, but adjacent departm
 ## Back to alerts & curfews
 {:.no_toc}
 
-At the department level, France has packed away 'OK' and 'Vigilance' for a while.
+It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -45,24 +45,26 @@ At the department level, France has packed away 'OK' and 'Vigilance' for a while
 # Where France is going
 {:.no_toc}
 
-The curves show that incidence rate for the elderly are growing faster than overall incidence rate. In early September, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag is only 3 days.
+The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate. On Sept 1, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag was only 3 days.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-Granted, incidence rates are heavily subject to 'testing bias'. For example, since mid-September there's been a change in testing strategy to reduce bottlenecks by  prioritizing those who are symptomatic, who are also more likely to be older.
+Granted, incidence rates are heavily subject to testing bias. For example, since mid-September there's been a change in testing strategy to reduce bottlenecks, by  prioritizing those who are symptomatic, and who are also more likely to be older.
 
-However, the ICU trends don't suffer from bias.
+Regardless of incidence rates, though, the plot above shows that ICU saturation is already above 30% nationally.
+
+Moreover, if you isolate `rea%` (click the legend) and zoom in from Sept 1, you can  see how the increase in ICU occupancy has accelerated after Oct 15.
 
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a rise in ICU arrivals around September 1st. Deaths (`dc`) had already started a slow rise that in late October is looking increasingly exponential.
+Below you can see a rise in ICU arrivals around September 1st. Deaths (`dc`) had already started a slow rise that by late October is looking increasingly exponential.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html).)
+(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html){:target="_blank"}.)
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
@@ -73,6 +75,10 @@ Oct 23: In an odd coincidence, the countries where French is spoken are all at t
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
+
+Again, keep in mind testing bias: we can't see the testing rates of each country.
+
+For example, [Luxembourg had sky-high testing rates during the summer](https://www.theguardian.com/world/2020/aug/18/luxembourg-covid-infection-rate-masks-mass-testing-regime-eu-travel-blacklist){:target="_blank"}, which was scaled back in the fall. It looks like they've been scaled back up, which is more feasible in a country that is as tiny as it is wealthy.
 
 # Learn more
 {:.no_toc}

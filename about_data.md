@@ -1,10 +1,10 @@
 # About this site
 
-The data here is meant to help you understand how Covid-19 is evolving in different areas of France. 
+The data here is meant to help you understand how Covid-19 is evolving in different areas of France, in one place, without bogging you down with superfluous stats
 
-The goal is to give you more context beyond increasingly-alarming case numbers: Is that good or bad? Are we heading up or down?
+The ultimate goal is to give you more context beyond increasingly-alarming case numbers: Is that good or bad? Are we heading up or down?
 
-To that end (in case you haven't already noticed) these plots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend. 
+To that end (in case you haven't already noticed) these plots are all interactive: zoom in on a area to get more detail, or select just a few lines by clicking the legend.
 
 Oh, and mobile users: _please turn your phone **sideways**._
 
@@ -14,19 +14,21 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 * **adding alert thresholds** to the indicator plots, which helps put the Covid curves in perspective.
 
-* **creating a map of the metropoles under curfew**
+* **adding summary of departments with where alert levels are going up
 
-* **discussing how testing influences incidence rates** 
+* **discussing how testing influences incidence rates**
+
+* **creating a map of the ~~metropoles~~ departments under curfew** DONE
 
 ## About Covid-19 data
 
 To borrow a phrase from economists, there's no such thing as a perfect dataset. Covid-19 data is the embodiment of this. It's extremely hard to establish any certainties with a novel virus that spreads so easily, manifests with such varied symptoms and outcomes, and wreaks literal havoc across so much of the world.
 
-In such a fast-evolving environment, data collection is not going to be exhaustive, nor ideal. The New York Times, Le Monde, The Guardian and the Canadian Broadcasting Company, just to name my go-to information sources as a layperson, have all reported stories of delayed results, not enough testing of asymptomatics, technical snafus, among other problems. 
+In such a fast-evolving environment, data collection is not going to be exhaustive, nor ideal. The New York Times, Le Monde, The Guardian and the Canadian Broadcasting Company, just to name my go-to information sources as a layperson, have all reported stories of delayed results, not enough testing of asymptomatics, technical snafus, among other problems.
 
-This applies to all Covid-19 data, not just what is visualized here. 
+This applies to all Covid-19 data, not just what is visualized here.
 
-Nonetheless, even if Covid data is not 100% accurate, it still provides decent benchmarks of where we are, and rough signposts of where we might be heading in near future. 
+Nonetheless, even if Covid data is not 100% accurate, it still provides decent benchmarks of where we are, and rough signposts of where we might be heading in near future.
 
 ## About this data (data caveats)
 
@@ -44,19 +46,19 @@ I cannot replicate government figures completely due to the following:
 
 ## About me
 
-Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space. 
+Most of my professional life has been spent as a technical communicator, or herding others, at enterprise software firms in the search/analytics/business intelligence space.
 
-Upshot: I've spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of searching/accessing/analyzing/distributing data with them. Rinse and repeat.
+Upshot: I've spent a lot of time learning new, often pretty complex, tools quickly, just to explain to techie types the ABCs of getting and analyzing data with them.
 
-After years of this I became more interested in learning how to access & analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.
+After years of this I became more interested in learning how to analyze data myself, beyond ABC. At the command line with open-source librairies, rather than in a UI on enterprise platforms.
 
-That's how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months. 
+That's how looking at Covid-19 data and compulsively reading Covid news articles somewhat naturally became my hobby since April 2020. It was a good distraction, oddly enough, while confined to a small Parisian apartment for 2.5 months.
 
-With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, I realized it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?
+With the arrival of the second wave and accompanying media blitz of stats, alerts, and heatmaps, it was leaving me overwhelmed. And if someone for whom data visualization is a fun weekend activity (sometimes) is overwhelmed, what about everyone else?
 
 ## Data sources
 
-The Covid-19 data comes from Santé Publique France and is updated daily at 19h15 Paris time. 
+The Covid-19 data comes from Santé Publique France and is updated daily at 19h15 Paris time.
 
 The plots here are updated shortly afterwards, usually by 21h Paris time.
 
@@ -70,11 +72,12 @@ Other data sources:
 * [INSEE population by dept & age group](https://www.insee.fr/fr/statistiques/1893198)
 * [ICU beds by department](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/article/nombre-de-lits-de-reanimation-de-soins-intensifs-et-de-soins-continus-en-france)
 * [French departments geojson](https://static.data.gouv.fr/resources/carte-des-departements-2-1/20191202-212236/contour-des-departements.geojson)
-* [lat & long coordinates for curfew metropoles](https://public.opendatasoft.com/explore/dataset/geoflar-communes-2013/download/?format=geojson&timezone=Europe/Berlin&lang=en) 
+* [lat & long coordinates for curfew metropoles](https://public.opendatasoft.com/explore/dataset/geoflar-communes-2013/download/?format=geojson&timezone=Europe/Berlin&lang=en)
   * NB: This data now directly available on gouv.donnees.fr, will switch to this shortly.
 
+## About the data processing
 
-When I started in April 2020, there wasn't as much data available—or at least findable—so I've done additional data processing to:
+When I started in April 2020, there wasn't as much data available—or it wasn't  findable—so I've done additional data processing to:
 
 * create rolling 7-day sums for positive tests and total number of tests
 
@@ -84,7 +87,7 @@ When I started in April 2020, there wasn't as much data available—or at least 
 
 * classify each département according to the alert thresholds described above...to the best of my ability with publicly-available data. See 'Data Caveats' above.
 
-Even though rolling 7-day averages and taux d'incidence are now available pre-calculated on data.gouv.fr, I prefer to keep working with daily "raw" numbers, especially as it allows me to see testing numbers (which I hope to share more here soon). 
+Even though rolling 7-day averages and taux d'incidence are now available pre-calculated on data.gouv.fr, I prefer to keep working with daily "raw" numbers, especially as it allows me to see testing numbers (which I hope to share more here soon).
 
 * The exception is metropole incidence rate data, which for now are only available pre-calculated.
 
