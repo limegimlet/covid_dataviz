@@ -78,9 +78,11 @@ Oct 23: In an odd coincidence, the countries where French is spoken are all at t
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
 
-Again, keep in mind testing bias: the more tests per capita, the higher the incidence rates. 
+Again, keep in mind testing bias: the more tests per capita, the higher the incidence rates.
 
-For example, [Luxembourg had sky-high testing rates during the summer](https://www.theguardian.com/world/2020/aug/18/luxembourg-covid-infection-rate-masks-mass-testing-regime-eu-travel-blacklist){:target="_blank"}, which was scaled back in the fall. It looks like they've been scaled back up, which is more feasible in a country that is as tiny as it is wealthy.
+For example, [Luxembourg had sky-high testing rates during the summer](https://www.theguardian.com/world/2020/aug/18/luxembourg-covid-infection-rate-masks-mass-testing-regime-eu-travel-blacklist){:target="_blank"}, which was scaled back in the fall.
+
+It's likely that Luxembourg's recent spike in incidence rate is partially due to testing being scaled back up, which is also more feasible in a country that is as tiny as it is wealthy.
 
 # Learn more
 {:.no_toc}
