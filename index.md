@@ -3,14 +3,27 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b>: Since midnight Oct 23 2020, <b>54 departments are under curfew from 21h to 06h</b>, shown on the Alert map further down.</blockquote>
+<blockquote><b>UPDATE</b> Oct 26: You can now find out the incidence rate range for your commune from Geodes. This was added last week, but over the weekend they added the most useful ranges: 250-500, 500-1000, & 1000+.<br><br>See their map that is embedded below, for week ending Oct 22. <br>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
-Before you look at yet another curfew map, please look at some maps that show _why_ so many of us are under curfew.
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
+{% endraw %}
 
-(_Please wait a few seconds while the maps load..._)
+When you filter to see only the 1000+ communes, 3 things of note:
+* there are no 1000+ communes in Paris or the petite couronne yet.
+* biggest concentraion is around Lyon - St Etienne - Grenoble
+* smaller concentration east of Strasbourg & north-west of Dijon; along Spanish border especially along Atlantic, and along Belgian border.
+* most revealing are communes in the rural & relatively untouched departments of the mid- and north-west.
+
+Again, keep in mind testing bias: when a cluster is found, avid contact tracing means case numbers (and therefore incidence rates) skyrocket. It's not necessarily representative.
+
+But it is a good reminder that it isn't only cities being seriously hit by Covid.
+
+ICU numbers give more concrete evidence of the virus' impact.
 
 ## ICUs are hurting
 {:.no_toc}
+
+(_Please wait a few seconds while the maps load..._)
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
