@@ -5,13 +5,20 @@ _**Mobile users**: view in landscape._
 
 <blockquote><b>UPDATE</b> Oct 26: You can now find out the incidence rate range for your commune from Geodes. This was added last week, but over the weekend they added the most useful ranges: 250-500, 500-1000, & 1000+.<br><br>See their map that is embedded below, for week ending Oct 22. <br>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
+Considering the tagline of this site, I'd say this map is primarily useful as a guideline of places to avoid **for now**.
+
+More on this below the map.
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
 {% endraw %}
 
-After filtering to see only the 1000+ communes, here's what I noticed:
-* there are no none in Paris or the petite couronne...yet.
-* biggest concentration is around Lyon - St Etienne - Grenoble (no surprise)
-* smaller concentration east of Strasbourg & north-west of Dijon; along Spanish border especially along Atlantic, and along Belgian border.
+After filtering to see only the 1000+ communes, here's what stood out for me:
+* in week ending Oct 22, there are none in Paris or the petite couronne...yet. That was a surprise at first, but when I thought about it, not so much. 
+
+Cities tend to have younger populations, who are also more likely by asymptomatic if infected. Since testing priority is for those symptomatic, the incidence rates could simply be missing those younger asymptomatics.
+
+Also, if you show the other levels too, it's clear that the more urbanized an area, the darker the blue. A notable exception: Bordeaux.
+
 * most revealing are the navy blue communes in the rural & relatively untouched departments of the mid- and north-west.
 
 Again, keep in mind testing bias: when a cluster is found, avid contact tracing means case numbers (and therefore incidence rates) skyrocket. It's not necessarily representative.
