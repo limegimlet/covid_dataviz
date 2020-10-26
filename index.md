@@ -8,11 +8,11 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
 {% endraw %}
 
-When you filter to see only the 1000+ communes, 3 things of note:
-* there are no 1000+ communes in Paris or the petite couronne yet.
-* biggest concentraion is around Lyon - St Etienne - Grenoble
+After filtering to see only the 1000+ communes, here's what I noticed:
+* there are no none in Paris or the petite couronne...yet.
+* biggest concentration is around Lyon - St Etienne - Grenoble (no surprise)
 * smaller concentration east of Strasbourg & north-west of Dijon; along Spanish border especially along Atlantic, and along Belgian border.
-* most revealing are communes in the rural & relatively untouched departments of the mid- and north-west.
+* most revealing are the navy blue communes in the rural & relatively untouched departments of the mid- and north-west.
 
 Again, keep in mind testing bias: when a cluster is found, avid contact tracing means case numbers (and therefore incidence rates) skyrocket. It's not necessarily representative.
 
