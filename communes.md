@@ -29,4 +29,4 @@ Again, keep in mind testing bias: when a cluster is found, avid contact tracing 
 
 But it is a good reminder that it isn't only cities being seriously hit by Covid.
 
-However, at this stage ICU numbers give more concrete evidence of the virus' impact and the urgent need to act. [See them here](#ICUs-are-hurting)
+However, at this stage ICU numbers give more concrete evidence of the virus' impact and the urgent need to act. [See them here](index.md#ICUs-are-hurting)
