@@ -3,25 +3,12 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE</b> Oct 26: You can now find out the incidence rate range for your commune from Geodes. This was added last week, but over the weekend they added the most useful ranges: 250-500, 500-1000, & 1000+.<br><br>See their map that is embedded below, for week ending Oct 22. <br>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
+It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-After filtering to see only the 1000+ communes, here's what stood out for me:
-* in week ending Oct 22, there are none in Paris or the petite couronne...yet. That was a surprise at first, but when I thought about it, not so much.
-
-Cities tend to have younger populations, who are also more likely by asymptomatic if infected. Since testing priority is for those symptomatic, the incidence rates could simply be missing those younger asymptomatics.
-
-Also, once you show the other ranges as well, it's clear that the more urbanized an area, the darker the blue. (A notable exception: Bordeaux)
-
-* more revealing are the navy blue communes in the rural & relatively untouched departments of the mid- and north-west.
-
-Again, keep in mind testing bias: when a cluster is found, avid contact tracing means case numbers (and therefore incidence rates) skyrocket. It's not necessarily representative.
-
-But it is a good reminder that it isn't only cities being seriously hit by Covid.
-
-ICU numbers give more concrete evidence of the virus' impact.
+**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
 ## ICUs are hurting
 {:.no_toc}
@@ -49,16 +36,6 @@ It looks like there are some departments with fairly high `rea%` but still witho
 I'm speculating this could be because their `rea%` is already on the way down? That's the case in Eure (Normandie): tt was in the low 80s a few days back.
 
 Another possibility is when a department has very few beds, but adjacent departments have capacity.
-
-## Back to alerts & curfews
-{:.no_toc}
-
-It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
-
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
-{% endraw %}
-
-**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
 # Where France is going
 {:.no_toc}
