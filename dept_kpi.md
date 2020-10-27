@@ -1,7 +1,7 @@
 # Compare departments (under construction)
 {:.no_toc}
 
-NOTE: The `rea%` plots show the same line for all departements because it's calculated for the region as whole.
+<blockquote><b>NEW</b>: These plots are now easier to read & interpret, with alert threshold lines, clearer labels, and better y-axis ranges.</blockquote>
 
 * TOC
 {:toc}
