@@ -5,21 +5,17 @@ _**Mobile users**: view in landscape._
 
 <blockquote><b>UPDATE</b> Oct 26: You can now find out the incidence rate range for your commune from Geodes. This was added last week, but over the weekend they added the most useful ranges: 250-500, 500-1000, & 1000+.<br><br>See their map that is embedded below, for week ending Oct 22. <br>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
-Considering the tagline of this site, I'd say this map is primarily useful as a guideline of places to avoid **for now**.
-
-More on this below the map.
-
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
 {% endraw %}
 
 After filtering to see only the 1000+ communes, here's what stood out for me:
-* in week ending Oct 22, there are none in Paris or the petite couronne...yet. That was a surprise at first, but when I thought about it, not so much. 
+* in week ending Oct 22, there are none in Paris or the petite couronne...yet. That was a surprise at first, but when I thought about it, not so much.
 
 Cities tend to have younger populations, who are also more likely by asymptomatic if infected. Since testing priority is for those symptomatic, the incidence rates could simply be missing those younger asymptomatics.
 
-Also, if you show the other levels too, it's clear that the more urbanized an area, the darker the blue. A notable exception: Bordeaux.
+Also, once you show the other ranges as well, it's clear that the more urbanized an area, the darker the blue. (A notable exception: Bordeaux)
 
-* most revealing are the navy blue communes in the rural & relatively untouched departments of the mid- and north-west.
+* more revealing are the navy blue communes in the rural & relatively untouched departments of the mid- and north-west.
 
 Again, keep in mind testing bias: when a cluster is found, avid contact tracing means case numbers (and therefore incidence rates) skyrocket. It's not necessarily representative.
 
@@ -69,6 +65,8 @@ It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
 The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate. On Sept 1, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag was only 3 days.
 
+(Note: these incidence numbers are based on 7-day rolling averages. It's actually more common to cite 7-day rolling totals. I'll fix this shortly.)
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
@@ -81,7 +79,7 @@ Moreover, if you isolate `rea%` (click the legend) and zoom in from Sept 1, you 
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a rise in ICU arrivals around September 1st. Deaths (`dc`) had already started a slow rise that by late October is looking increasingly exponential.
+Below you can see a rise in ICU arrivals around September 1st (zoom in). Deaths (`dc`) had already started a slow rise that by late October is looking speeding up.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
@@ -94,6 +92,8 @@ Below you can see a rise in ICU arrivals around September 1st. Deaths (`dc`) had
 {:.no_toc}
 
 Oct 23: In an odd coincidence, the countries where French is spoken are all at the top.
+
+A more general observation: Spain & Belgium were, per capita, the worst-hit countries of Europe's first wave, only to became the heralds of the second wave. A symptom of the political bickering within their regions?
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
