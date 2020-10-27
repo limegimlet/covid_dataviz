@@ -5,6 +5,8 @@ _**Mobile users**: view in landscape._
 
 It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
+(_Please wait a few seconds while the maps load..._)
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
@@ -12,8 +14,6 @@ It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
 ## ICUs are hurting
 {:.no_toc}
-
-(_Please wait a few seconds while the maps load..._)
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
