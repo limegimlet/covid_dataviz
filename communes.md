@@ -3,13 +3,13 @@
 
 Since Oct 23 you can now find out the incidence rate range for a commune from Santé Publique France/Geodes.
 
-The problem was, it only shows ranges, not actual values, and the uppermost range was 250+, which is a pretty broad category at this stage of the game.
+This map only shows ranges, not actual values, and initially the uppermost range was 250+, which is a pretty broad category at this stage of the pandemic game.
 
-The goal was "to not stigmatize" the heaviest-hit communes.
+Apparently the goal was "to not stigmatize" the heaviest-hit communes.
 
 Over the weekend SPF seems to have realized that during a pandemic, 'stigmatizing' areas where the virus is most active is, in fact,  _what you want people to do_. Temporarily, of course.
 
-Accordingly, there are now more informative ranges: 250-500, 500-1000, & 1000+.
+Accordingly, the map now includes higher ranges: 250-500, 500-1000, & 1000+.
 
 * To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
