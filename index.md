@@ -3,7 +3,7 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
+<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, all of France will go back into confinement for a 4 week minimum. </blockquote>
 
 (_Please wait a few seconds while the maps load..._)
 
