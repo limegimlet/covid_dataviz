@@ -42,8 +42,6 @@ Another possibility is when a department has very few beds, but adjacent departm
 
 The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate. On Sept 1, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag was only 3 days.
 
-(Note: these incidence numbers are based on 7-day rolling averages. It's actually more common to cite 7-day rolling totals. I'll fix this shortly.)
-
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
