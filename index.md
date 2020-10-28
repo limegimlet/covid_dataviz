@@ -12,7 +12,19 @@ It looks like France has said good-bye to 'OK' and 'Vigilance' for a while.
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-## ICUs are hurting
+### Summary of changes in past 7 days
+{:.no_toc}
+
+Below are counts of departments with 7-day increases, decreases, or no change.
+
+indicator|increases|no changes|decreases
+---|---|---|---
+`incid_tous`|100|0|1
+`incid_70+`|98|1|2
+`rea%_dep`|77|12|7
+
+
+# ICU capacity
 {:.no_toc}
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
