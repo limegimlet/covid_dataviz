@@ -3,7 +3,7 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, all of France will go back into confinement for a 4 week minimum. </blockquote>
+<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. </blockquote>
 
 (_Please wait a few seconds while the maps load..._)
 
@@ -15,13 +15,13 @@ _**Mobile users**: view in landscape._
 ### Summary of changes in past 7 days
 {:.no_toc}
 
-Below are counts of departments with 7-day increases, decreases, or no change.
+Counts of departments with 7-day increases, decreases, or unchanged.
 
 indicator|increases|no changes|decreases
 ---|---|---|---
 `incid_tous`|100|0|1
 `incid_70+`|98|1|2
-`rea%_dep`|77|12|7
+`rea%_dep`|78|9|9
 
 
 # ICU capacity
@@ -30,8 +30,6 @@ indicator|increases|no changes|decreases
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
 The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the alerte maximale threshold is "only" at 60%.
-
-As of Oct 23 Auvergne-Rhône-Alpes & Ile-de-France are at 71% & 63% capacity, with [elective surgery already being postponed in IdF](https://www.liberation.fr/france/2020/10/08/le-covid-chamboule-de-nouveau-les-hopitaux-franciliens_1801793){:target="_blank"}.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -42,12 +40,6 @@ The map below shows how much `rea%` varies by department.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
-
-It looks like there are some departments with fairly high `rea%` but still without a curfew.
-
-I'm speculating this could be because their `rea%` is already on the way down? That's the case in Eure (Normandie): tt was in the low 80s a few days back.
-
-Another possibility is when a department has very few beds, but adjacent departments have capacity.
 
 # Where France is going
 {:.no_toc}
