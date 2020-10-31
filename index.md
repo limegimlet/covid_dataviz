@@ -12,18 +12,6 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-### Summary of changes in past 7 days
-{:.no_toc}
-
-Counts of departments with 7-day increases, decreases, or unchanged.
-
-indicator|increases|no changes|decreases
----|---|---|---
-`incid_tous`|100|0|1
-`incid_70+`|98|1|2
-`rea%_dep`|78|9|9
-
-
 # ICU capacity
 {:.no_toc}
 
