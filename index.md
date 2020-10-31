@@ -3,12 +3,25 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. Since curfew is now irrelevant, it no longer appears on the map. <br>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
+<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. Since curfew is now irrelevant, it no longer appears on the map. <br><br>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
 
-(_Please wait a few seconds while the maps loadß..._)
+(_Please wait a few seconds while the maps loads..._)
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
+
+## Summary of 7-day changes
+{:.no_toc}
+
+Some good news: there are more departments with increases over the past 7 days, particularly for `rea%`. However, the vast majority are still increasing.
+
+Also, with nearly all departments showing 7-day increases in incidence rates means that more fuel is being added to the fire - we can expect to see yet more increases in ICU ~2 weeks from now.
+
+indicator|increases|no changes|decreases
+---|---|---|---
+`incid_tous`|98|0|3
+`incid_70+`|96|1|4
+`rea%_dep`|83|7|6
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
