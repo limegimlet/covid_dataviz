@@ -11,7 +11,7 @@ Over the weekend SPF seems to have realized that during a pandemic, 'stigmatizin
 
 Accordingly, the map now includes higher ranges: 250-500, 500-1000, & 1000+.
 
-* To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
+<blockquote>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
 {% endraw %}
