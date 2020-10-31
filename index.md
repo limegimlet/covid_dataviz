@@ -10,12 +10,12 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-## Summary of 7-day changes
+### 7-day changes since Oct 28
 {:.no_toc}
 
-Some good news: there are more departments with increases over the past 7 days, particularly for `rea%`. However, the vast majority are still increasing.
+Some good news: there are more departments that have seen decreases over the past 7 days for `rea%`. However, the vast majority are still increasing.
 
-Also, with nearly all departments showing 7-day increases in incidence rates means that more fuel is being added to the fire - we can expect to see yet more increases in ICU ~2 weeks from now.
+Also, with nearly all departments showing 7-day increases in incidence rates, it means more fuel is being added to the fire. We can expect to see yet more increases in ICU ~2 weeks from now.
 
 indicator|increases|no changes|decreases
 ---|---|---|---
