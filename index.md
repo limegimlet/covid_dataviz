@@ -3,9 +3,9 @@ _**Mobile users**: view in landscape._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. </blockquote>
+<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. Since curfew is now irrelevant, it no longer appears on the map. <br>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
 
-(_Please wait a few seconds while the maps load..._)
+(_Please wait a few seconds while the maps loadß..._)
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
