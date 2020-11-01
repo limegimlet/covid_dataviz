@@ -10,6 +10,8 @@ _**Mobile users**: view in landscape._
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>
 {% endraw %}
 
+**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
+
 ### 7-day changes since Oct 28
 {:.no_toc}
 
@@ -23,7 +25,22 @@ indicator|increases|no changes|decreases
 `incid_70+`|96|1|4
 `rea%_dep`|83|7|6
 
-**<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
+### Fastest increases
+
+<img src='img/incid_tous_incr.png' height="200" />
+
+<img src='img/incid_70+_incr.png' height="200" />
+
+<img src='img/rea%_dep_incr.png' height="200" />
+
+### Fastest decreases
+
+<img src='img/incid_tous_decr.png' height="200" />
+
+<img src='img/incid_70+_decr.png' height="200" />
+
+<img src='img/rea%_dep_decr.png' height="200" />
+
 
 # ICU capacity
 {:.no_toc}
