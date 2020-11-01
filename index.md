@@ -12,36 +12,6 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-### 7-day changes since Oct 28
-{:.no_toc}
-
-Some good news: there are more departments that have seen decreases over the past 7 days for `rea%`. However, the vast majority are still increasing.
-
-Also, with nearly all departments showing 7-day increases in incidence rates, it means more fuel is being added to the fire. We can expect to see yet more increases in ICU ~2 weeks from now.
-
-indicator|increases|no changes|decreases
----|---|---|---
-`incid_tous`|98|0|3
-`incid_70+`|96|1|4
-`rea%_dep`|83|7|6
-
-### Fastest increases
-
-<img src='img/incid_tous_incr.png' height="200" />
-
-<img src='img/incid_70+_incr.png' height="200" />
-
-<img src='img/rea%_dep_incr.png' height="200" />
-
-### Fastest decreases
-
-<img src='img/incid_tous_decr.png' height="200" />
-
-<img src='img/incid_70+_decr.png' height="200" />
-
-<img src='img/rea%_dep_decr.png' height="200" />
-
-
 # ICU capacity
 {:.no_toc}
 
