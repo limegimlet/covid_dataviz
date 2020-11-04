@@ -18,8 +18,8 @@ _**Mobile users**: view in landscape._
 These are the indicators that determine overall alert level for a département or group of départements.
 
 **This label**: | **represents**: | **which means:**
-`niveau_global`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
-`incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See [About](about_data.md#About this data (data caveats)s) for details._
+`niveau`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
+`incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See [About](about_data.md#About this data (data caveats)) for details._
 `incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level._
 `rea%` | Percent of ICU beds occupied by Covid patients | _The most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
 
@@ -64,7 +64,10 @@ The map below shows how much `rea%` varies by department.
 # Where France is going
 {:.no_toc}
 
-The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate. On Sept 1, `incid_70+` was lagging `incid_tous` by about 2.5 weeks. On Oct 23 the lag was only 3 days.
+The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate.
+* Sept 1: `incid_70+` was lagging `incid_tous` by about 2.5 weeks.
+* Oct 23: the lag was only 3 days.
+* Oct 28: the lag was less than 2 days.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
@@ -171,11 +174,15 @@ Other sites I've visited are overwhelming. This site is my attempt at finding a 
 
 **The official alert map** with the most up-to-date numbers:
 
-* [Ministère des Solidarités et Santé : Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)
+Nov 3: this link returns a `404: file not found` error, without a redirect. The ministry's home page no longer refers to it, either, and instead points you to the SPF dashboard (link further down).
 
-The map is a static image followed by a long list of départements, which is what prompted me to create the interactive map here.
+I have asked why via [twitter](https://twitter.com/sehosking/status/1323982747866681344?s=20){:target="_blank"}.
 
-NB: Due to data availability, there will be some differences between the two. Please read [About the data](about_data.html)
+~~* [Ministère des Solidarités et Santé : Indicateurs de l’activité épidémique](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/etat-des-lieux-et-actualites/article/indicateurs-de-l-activite-epidemique)~~
+
+~~The map is a static image followed by a long list of départements, which is what prompted me to create the interactive map here.~~
+
+~~NB: Due to data availability, there will be some differences between the two. Please read [About the data](about_data.html)~~
 
 **For the most recent case, hospitalization and death counts for France overall:**
 
