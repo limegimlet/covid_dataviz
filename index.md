@@ -12,17 +12,49 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-# ICU capacity
+### What does the info in the hover boxes mean?
+{:.no_toc}
+
+These are the indicators that determine overall alert level for a département or group of départements.
+
+**This label**: | **represents**: | **which means:**
+`niveau_global`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
+`incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See [About](about_data.md#About this data (data caveats)s) for details._
+`incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level._
+`rea%` | Percent of ICU beds occupied by Covid patients | _The most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
+
+### How are alert levels triggered?
+{:.no_toc}
+
+These are the levels defined by the government
+
+**Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
+**Alerte** | > 50 | - |-
+**Alerte renforcée** | > 150 | > 50 | -
+**Alerte maximale** | > 250 | > 100 | > 30
+**Etat d'urgence sanitaire** | > 250 | > 100 | > 60
+
+Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
+
+The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
+
+# ICU saturation
 {:.no_toc}
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
 The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the alerte maximale threshold is "only" at 60%.
 
+<blockquote><b>Data notes</b>:<br>
+* Hospital data is available the next day, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
+<br>
+<br>
+* To show Covid's full impact on ICU saturation, `rea%` & `rea%_dep` are based on the number of permanent ICU beds. Although hospitals have found some additional ICU capacity for the 2nd wave, this comes at the expense of other hospital care.
+</blockquote>
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-<blockquote>FYI: hospital covid numbers are available the next day, but there's a 3-day wait for "latest" incidence rates. That's why the dates are different between ICU maps & alert maps.</blockquote>
 
 The map below shows how much `rea%` varies by department.
 
@@ -78,30 +110,6 @@ It's likely that Luxembourg's recent spike in incidence rate is partially due to
 {:toc}
 
 ## Alert FAQ
-
-### What does the info in the map hover boxes mean?
-
-These are the indicators that determine overall alert level for a département or group of départements.
-
-**This label**: | **represents**: | **which means:**
-`niveau_global`| Alert level |_How actively the Covid-19 is spreading in an area. Reaching a new alert level "unlocks" possible new restrictions. Or eases them, if indicators go down._
-`incid_tous` | Incidence rate |_The number of positive tests per 100k population. Officially, this is measured for major metropolitan areas. In these maps, it's measured at the department level. See **Data caveats** for details._
-`incid_70+`| Incidence rate among the elderly |_Offically, this is the incidence rate for those over 65. In these maps, it's over 70. See **Data caveats** for details. Measured at department level._
-`rea%` | Percent of ICU beds occupied by Covid patients | _The most worrisome indicator. It normally starts creeping up once the incidence rates are already high. Unlike incidence rates, it's measured at the regional level._
-
-### How are alert levels triggered?
-
-These are the levels defined by the government
-
-**Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
-**Alerte** | > 50 | - |-
-**Alerte renforcée** | > 150 | > 50 | -
-**Alerte maximale** | > 250 | > 100 | > 30
-**Etat d'urgence sanitaire** | > 250 | > 100 | > 60
-
-Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
-
-The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 
 ### What are the restrictions?
 
