@@ -12,6 +12,8 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
+### Where are the departemen
+
 ### What does the info in the hover boxes mean?
 {:.no_toc}
 
@@ -28,13 +30,14 @@ These are the indicators that determine overall alert level for a département o
 
 These are the levels defined by the government
 
-**Alert level** | **Incidence rate** | **Elderly incidence rate** | **ICU % saturation**
+**Alert level** | **Incidence rate**<br>`incid_tous` | **Elderly incidence rate**<br>`incid_70+` | **ICU % saturation**<br>`rea%`
+**OK** | <= 50 | <= 50 | <= 30%
 **Alerte** | > 50 | - |-
 **Alerte renforcée** | > 150 | > 50 | -
-**Alerte maximale** | > 250 | > 100 | > 30
-**Etat d'urgence sanitaire** | > 250 | > 100 | > 60
+**Alerte maximale** | > 250 | > 100 | > 30%
+**Etat d'urgence sanitaire** | > 250 | > 100 | > 60%
 
-Since there are scenarios where a department has passed a threshold for some, but not all indicators to move up an alert level. For these scenarios I've added the **Vigilence** level.
+Since there are scenarios where a department has passed one threshold, but not the other(s) needed to move up an alert level. For these scenarios I've added the **Vigilence** level.
 
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 
