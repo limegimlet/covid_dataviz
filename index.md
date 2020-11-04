@@ -12,8 +12,6 @@ _**Mobile users**: view in landscape._
 
 **<sup>*</sup>** _<sub>based on 7-day rolling averages and the latest publicly-available indicator values. See <a href="about_data.html">About the data</a> for more info.</sub>_
 
-### Where are the departemen
-
 ### What does the info in the hover boxes mean?
 {:.no_toc}
 
@@ -46,7 +44,7 @@ The typical example is a département with `incid_70+` well above 50, but a low 
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
-The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the alerte maximale threshold is "only" at 60%.
+The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the threshold for Etat d'urgence sanitaire is "only" at 60%.
 
 <blockquote><b>Data notes</b>:<br>
 * Hospital data is available the next day, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
