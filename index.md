@@ -46,6 +46,8 @@ ICU saturation is normally measured by region since hospitals are managed at the
 
 The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the threshold for Etat d'urgence sanitaire is "only" at 60%.
 
+Nov 4: To make the regional ICU map more informative with so many regions over 60% saturation, the maximum value for the colorscale has been increased from 60 to 100.
+
 <blockquote><b>Data notes</b>:<br>
 * Hospital data is available the next day, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
 <br>
