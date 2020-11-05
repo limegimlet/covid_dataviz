@@ -1,9 +1,11 @@
 _**Mobile users**: view in landscape._
 
+_All data on this site is updated nightly._
+
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-<blockquote><b>UPDATE Oct 28</b>: as of midnight Oct 29, France will go back into confinement for a 4 week minimum. Since curfew is now irrelevant, it no longer appears on the map. <br><br>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
+<blockquote>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
 
 (_Please wait a few seconds while the maps loads..._)
 
@@ -49,7 +51,7 @@ The hope for the 2nd wave was to keep hospitals open for non-Covid patients, whi
 Nov 4: To make the regional ICU map more informative with so many regions over 60% saturation, the maximum value for the colorscale has been increased from 60 to 100.
 
 <blockquote><b>Data notes</b>:<br>
-* Hospital data is available the next day, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
+* Hospital data for that day available after 14h, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
 <br>
 <br>
 * To show Covid's full impact on ICU saturation, `rea%` & `rea%_dep` are based on the number of permanent ICU beds. Although hospitals have found some additional ICU capacity for the 2nd wave, this comes at the expense of other hospital care.
@@ -119,9 +121,7 @@ It's likely that Luxembourg's recent spike in incidence rate is partially due to
 
 ### What are the restrictions?
 
-The possible restrictions are determined by the alert level in your area:
-
-(In French: to be translated shortly.)
+The possible restrictions are determined by the alert level in your area. (Descriptions in French)
 
 #### Alerte
 

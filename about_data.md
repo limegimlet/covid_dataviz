@@ -18,7 +18,7 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 * **adding summary of departments where alert levels are going up vs down** IN PROGRESS
 
-* **tracking the ~~curfew areas~~ confinement** - where Covid is the most active - to see how if/when/how fast the case counts & ICU occupancy goes down. Curfew started on Sat October 17 at 21h00. Progress will be slow—experts say it will take two weeks minimum according to exports to expect any changes—but being able to visualize progress is always motivating. IN PROGRESS
+* **tracking the confinement** - to see how if/when/at what rate the case counts & ICU occupancy are going down. As this more people are working and kids are in school, this is a lighter confinement than last sprint. Accordingly progress will be slower. The big question is will it be enough to celebrate les fêtes?
 
 ## About Covid-19 data
 
