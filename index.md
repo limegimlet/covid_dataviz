@@ -4,9 +4,6 @@ _All data on this site is updated nightly._
 
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
-
-<blockquote>Coming next: progress tracker on getting back to 5000 cases/day &  ICU at <= 15% Covid patients.</blockquote>
-
 (_Please wait a few seconds while the maps loads..._)
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/alerts.html" height="600" width="100%"></iframe>

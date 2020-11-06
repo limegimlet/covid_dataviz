@@ -10,15 +10,17 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 ### Coming soon
 
-* **adding alert thresholds** to the indicator line plots, to help answer the inevitable question "Just how bad is it?". DONE
+* ~~**adding alert thresholds** to the indicator line plots, to help answer the inevitable question "Just how bad is it?".~~ DONE
 
-* **creating a map of the ~~metropoles~~ departments under curfew** DONE
+* ~~**creating a map of the ~~metropoles~~ departments under curfew**~~ DONE
 
 * **discussing how testing influences incidence rates** IN PROGRESS
 
 * **adding summary of departments where alert levels are going up vs down** IN PROGRESS
 
-* **tracking the confinement** - to see how if/when/at what rate the case counts & ICU occupancy are going down. As this more people are working and kids are in school, this is a lighter confinement than last sprint. Accordingly progress will be slower. The big question is will it be enough to celebrate les fêtes?
+* **tracking the confinement** - to see how if/when/at what rate the case counts & ICU occupancy are going down.
+
+    * As this more people are working and kids are in school, this is a lighter confinement than last sprint. Accordingly progress will be slower. The big question is will it be enough to celebrate les fêtes?
 
 ## About Covid-19 data
 
