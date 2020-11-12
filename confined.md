@@ -33,10 +33,12 @@ _Coming soon._
 
 These are modest, and seem to be all rural. It's likely they have few ICU beds so the departure of one or two patients can have a big impact.
 
-{% raw %}<iframe width="900" height="300" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/211.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/211.embed?showlink=false"></iframe>{% endraw %}
 
 ## ICU saturation increases
 
 The first row is something of an outlier, with such a giant increase that the still-large increases elsewhere literally pale in comparison.
+
+Also, Deux-Sèvres has the 2nd-lowest number of ICU beds per capita: 2.08. (By comparison, the highest numbers are above 17 beds per capita).
 
 {% raw %}<iframe width="900" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/213.embed?showlink=false"></iframe>{% endraw %}
