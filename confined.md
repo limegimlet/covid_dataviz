@@ -1,35 +1,33 @@
 # Confinement: the impact so far
 
-We are starting to see modest decreases in incidence rates for both general population and the elderly.
+Nov 12: We are starting to see modest decreases in incidence rates, but barely any for ICU saturation.
 
-Not surprisingly, the decreases are unfolding in the same order they increased: first `incid_tous`, followed by `incid_70+`, with `rea%` trailing by a wide margin.
+* **The heatmaps below show daily percentage change since Oct 28 2020**, after which France began its second confinement.
 
-<blockquote><b>Note the scale at right for each heatmap</b>: it varies widely for each. Also, the scale for decreases is more modest than that of increases, especially for `rea%`. In other words, we've got a ways to go still.</blockquote>
+* **Departments appear in descending order**: the department with the greatest decrease or increase since confinement began is the first listed.
+
+* Changes in incidence rates are **net of changes in testing rates**.  For clarity, raw % changes for both are shown in the hoverbox.
+
+* Note the color scale to the right of each heatmap: it varies widely for each.
+
+* Also, note that the scale for decreases is more modest than that of increases, especially for `rea%`. **In other words, we've still got a ways to go**.
 
 ## Incidence rate decreases
-
-Interestingly, most of the Ile-de-France departments are at the top. The Nord department (containing Lille) has also seen incidence rate drop quickly.
 
 {% raw %}<iframe width="900" height="1100" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
 
 ## Incidence rate increases
 
-It's saddening to see Territoire de Belfort (Mulhouse) at the top: as location of France's first super-spreader event, it's the department with the highest per capita death toll from the first wave.
-
-While case numbers rose over the summer Grand Est and Territoire de Belfort stayed relatively low; I had supposed that the population, as in northern Italy, was so marked by the first wave that it was easier to respect les gestes barrières.
-
 {% raw %}<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate decreases
 
-At the top are mostly rural areas, but Paris and Seine-Saint-Denis make an appearance here too.
-
-{% raw %}<iframe width="900" height="900" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
+_Coming soon._
 
 ## Elderly incidence rate increases
 
+_Coming soon._
 
-{% raw %}<iframe width="900" height="900" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
 
 ## ICU saturation decreases
 
