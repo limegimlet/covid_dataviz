@@ -10,15 +10,21 @@ Nov 12: We are starting to see modest decreases in incidence rates, but barely a
 
 * Note the color scale to the right of each heatmap: it varies widely for each.
 
-* Also, note that the scale for decreases is more modest than that of increases, especially for `rea%`. **In other words, we've still got a ways to go**.
+* Also, note that the scale for decreases is far more modest for `rea%` than for increases. **In other words, we've still got a ways to go**.
 
 ## Incidence rate decreases
+
+Nov 13: This is the first good sign. The vast majority of departments show decreasing `incid_tous`.
+
+However, even if it's decreasing, there's still a very high number of new infections.
+
+Since inevitably a certain proportion of those infected now will end up in ICU ~7 days from now, it still means stress for hospitals for the foreseeable future.
 
 {% raw %}<iframe width="100%" height="1800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
 
 ## Incidence rate increases
 
-{% raw %}<iframe width="100%" height="600" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate decreases
 
