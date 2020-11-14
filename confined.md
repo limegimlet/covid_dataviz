@@ -2,10 +2,7 @@
 
 Nov 12: We are starting to see modest decreases in incidence rates, but barely any for ICU saturation.
 
-incid_tous|rea%_dep
----|---
-80|6
-16|90
+{% raw %}<img alt="summary of changes" src="img/conf_chg_summary.png" width="200" height="100" align='center'>{% endraw %}
 
 * **The heatmaps below show daily percentage change since Oct 28 2020**, after which France began its second confinement.
 
