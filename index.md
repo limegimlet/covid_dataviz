@@ -5,14 +5,6 @@ _All data on this site is updated nightly._
 # Covid-19: Where France is now<sup>*</sup>
 {:.no_toc}
 
-## The alert map no longer makes sense
-
-Nov 14: The alert map has been moved off this page for the time being, since the alert-triggers no longer really make sense.
-
-For example, we now have departments back down to the `alerte` level because `incid_tous` has bone below 150 cases for 100k population, but `rea%` is still above 60%.
-
-You can still view the map [here](alerts.html).
-
 <!--
 (_Please wait a few seconds while the maps loads..._)
 
@@ -49,21 +41,29 @@ Since there are scenarios where a department has passed one threshold, but not t
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 -->
 
-# Incid_tous decreasing since confinement
+## Incid_tous decreasing since confinement
 
 Nov 14: the majority of mainland France departments have seen their `incid_tous` rates decrease since the confinement began.
 
 Also, to make sure the decreases aren't just due to less testing, these counts are based on % change of `incid_tous` less the % change  the `tx_depistage`.
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false" height="500" width="100%"></iframe>
+{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
 Unfortunately, it looks like it will still be a while before the same can be said for ICU occupancy by covid patients.
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false" height="500" width="100%"></iframe>
+{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
-# ICUs are still saturated
+## Where's the alart map?
+
+Nov 14: The alert map has been moved off this page for the time being, since the alert triggers no longer really make sense.
+
+For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%.
+
+You can still view the map [here](alerts.html){:target="_blank"}.
+
+## ICUs are still saturated
 {:.no_toc}
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
