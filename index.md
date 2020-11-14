@@ -55,13 +55,15 @@ Unfortunately, it looks like it will still be a while before the same can be sai
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
+For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
+
 ## Where's the alart map?
 
 Nov 14: The alert map has been moved off this page for the time being, since the alert triggers no longer really make sense.
 
 For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%.
 
-You can still view the map [here](alerts.html){:target="_blank"}.
+You can still view the map [here](alerts.html)c.
 
 ## ICUs are still saturated
 {:.no_toc}
