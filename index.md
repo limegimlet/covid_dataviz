@@ -2,7 +2,7 @@ _**Mobile users**: view in landscape._
 
 _All data on this site is updated nightly._
 
-# Covid-19, confined # 2: Where France is now<sup>*</sup>
+# Confinement # 2: Where France is now<sup>*</sup>
 {:.no_toc}
 
 <!--
