@@ -56,7 +56,8 @@ For a daily breakdown by department, [check out these heatmaps](confined.md){:ta
 
 ## Elderly incidence rate changes TBD
 
-Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it first requires calculating the elderly test rates.
+{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
+{% endraw %}
 
 ## ICU saturation increased in nearly all departments
 
@@ -94,7 +95,7 @@ However the regions already over 100% will remain burgundy for some time still, 
 
 The map below shows how much `rea%` varies by department.
 
-Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker. This could be largely due to patient transfers. 
+Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker. This could be largely due to patient transfers.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}

@@ -28,11 +28,11 @@ Since inevitably a certain proportion of those infected now will end up in ICU ~
 
 ## Elderly incidence rate decreases
 
-_Coming soon._
+{% raw %}<iframe width="100%" height="700" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate increases
 
-_Coming soon._
+{% raw %}<iframe width="100%" height="1400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
 
 
 ## ICU saturation decreases
@@ -45,6 +45,6 @@ These are modest, and seem to be all rural. It's likely they have few ICU beds s
 
 The first row is something of an outlier, with such a giant increase that the still-large increases elsewhere literally pale in comparison.
 
-Also, Deux-Sèvres has the 2nd-lowest number of ICU beds per capita: 2.08. (By comparison, the highest numbers are above 17 beds per capita).
+Also, Deux-Sèvres is the department with the 2nd-lowest number of ICU beds per 100k population: 2.08. For comparison, the highest numbers (in Territoire du Belfort & Paris) are above 17 beds per 100k population.
 
 {% raw %}<iframe width="100%" height="2000" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/213.embed?showlink=false"></iframe>{% endraw %}
