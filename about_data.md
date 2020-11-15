@@ -14,11 +14,11 @@ Oh, and mobile users: _please turn your phone **sideways**._
 
 * ~~**creating a map of the ~~metropoles~~ departments under curfew**~~ DONE
 
+* ~~**adding summary of departments where alert levels are going up vs down**~~ NO LONGER RELEVANT (government seems to have abandoned alert levels)
+
 * **discussing how testing influences incidence rates** IN PROGRESS
 
-* **adding summary of departments where alert levels are going up vs down** IN PROGRESS
-
-* **tracking the confinement** - to see how if/when/at what rate the case counts & ICU occupancy are going down.
+* **tracking the confinement** - to see how if/when/at what rate the case counts & ICU occupancy are going down. IN PROGRESS: new bar charts are on the Overview page, plus new [heatmaps of % changes by department](confined.md){:target="_blank"}.
 
     * As this more people are working and kids are in school, this is a lighter confinement than last sprint. Accordingly progress will be slower. The big question is will it be enough to celebrate les fêtes?
 

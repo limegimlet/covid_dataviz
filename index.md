@@ -51,12 +51,12 @@ As of Nov 14, over 80 of the 96 mainland France departments have seen `incid_tou
 {% endraw %}
 
 <blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these counts are based on the net incidence rate change: the % change of `incid_tous` less the % change of the `tx_depistage`.</blockquote>
-
+s
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
 ## Elderly incidence rate changes are still TBD
 
-Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it requires calculating the elderly testing rate.
+Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it first requires calculating the elderly test rates.
 
 ## ICU saturation is still growing in nearly all departments
 
