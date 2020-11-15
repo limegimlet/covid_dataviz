@@ -60,7 +60,7 @@ Coming soon: it takes more time to calculate net changes in elderly incidence ra
 
 ## ICU saturation still growing in nearly all departments
 
-NOV 15: Today's ICU occupation numbers appeared to be doubled. These have completely skewed the maps and plots, so I'm hiding them until this is corrected.
+**NOV 15: Today's ICU occupation numbers appeared to be doubled. These have completely skewed the maps and plots, so I'm hiding them until this is corrected.**
 
 <!--
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
