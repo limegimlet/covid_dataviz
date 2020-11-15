@@ -58,31 +58,27 @@ For a daily breakdown by department, [check out these heatmaps](confined.md){:ta
 
 Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it first requires calculating the elderly test rates.
 
-## ICU saturation still growing in nearly all departments
+## ICU saturation increased in nearly all departments
 
-**NOV 15: Today's ICU occupation numbers appeared to be doubled. These have completely skewed the maps and plots, so I'm hiding them until this is corrected.**
-
-![Oops](img/oops_hosp_data.png)
-
-<!--
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
+**There is good news, however: at the national level ICU occupancy has stablilized!**
+
+![flattening ICU](img/icu_flattening.png)
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## ICU maps keep getting redder
+## ICU saturation maps appear marginally less red
 {:.no_toc}
 
 ### At the regional level
 
-ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
+It's subtle, but the regions that never got close to 100%, but never reached it seem to have decreased further. Exaples being Ile-de-France and Corse.
 
-The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the threshold for Etat d'urgence sanitaire was "only" at 60%.
-
-Nov 4: To make the regional ICU map more informative with so many regions over 60% saturation, the maximum value for the colorscale has been increased from 60 to 100.
+However the regions already over 100% will remain burgundy for some time still, except perhaps PACA.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -98,10 +94,10 @@ Nov 4: To make the regional ICU map more informative with so many regions over 6
 
 The map below shows how much `rea%` varies by department.
 
-Nov 15: With so many departments well above 100%—in a few Auvergne-Rhône-Alpes departments, it's above 200%—I am in the process of modifying this map so it will instead show _ranges_ of ICU saturation.
+Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker. This could be largely due to patient transfers. 
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
-{% endraw %}-->
+{% endraw %}
 
 ### What does ICU saturation mean, in reality?
 
