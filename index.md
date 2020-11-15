@@ -45,7 +45,7 @@ The typical example is a département with `incid_70+` well above 50, but a low 
 
 ## Overall incidence rate down in most departments
 
-As of Nov 14, over 80 of the 96 mainland France departments have seen `incid_tous` rates decrease since confinement began.
+As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tous` rates decrease since confinement began.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
@@ -60,7 +60,7 @@ Coming soon: it takes more time to calculate net changes in elderly incidence ra
 
 ## ICU saturation is still growing in nearly all departments
 
-By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
+By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
