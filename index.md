@@ -99,7 +99,7 @@ Nov 15: With so many departments well above 100%—in a few Auvergne-Rhône-Alpe
 
 ### What does ICU saturation mean, in reality?
 
-Le Parisien has been profiling what's going on in the hospitals around France during the second wave. Unfortunately, most are behind paywalls.
+Le Parisien has been profiling what's going on in the hospitals around France during the second wave. Unfortunately, most are behind a paywall.
 
 One example (that's also open) is the city of Orléans in the Loiret, part of the Centre-Val-de-Loire region. As of Nov 14, Loiret's `rea%_dep` was at 153%, while region `rea%` was 90%.
 
