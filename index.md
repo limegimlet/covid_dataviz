@@ -51,14 +51,14 @@ As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tou
 {% endraw %}
 
 <blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these counts are based on the net incidence rate change: the % change of `incid_tous` less the % change of the `tx_depistage`.</blockquote>
-s
+
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## Elderly incidence rate changes are still TBD
+## Elderly incidence rate changes TBD
 
 Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it first requires calculating the elderly test rates.
 
-## ICU saturation is still growing in nearly all departments
+## ICU saturation still growing in nearly all departments
 
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
@@ -67,14 +67,19 @@ By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy b
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## And so ICUs maps keep getting redder
+## ICU maps keep getting redder
 {:.no_toc}
+
+### At the regional level
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
 
-The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the threshold for Etat d'urgence sanitaire is "only" at 60%.
+The hope for the 2nd wave was to keep hospitals open for non-Covid patients, which  is why the threshold for Etat d'urgence sanitaire was "only" at 60%.
 
 Nov 4: To make the regional ICU map more informative with so many regions over 60% saturation, the maximum value for the colorscale has been increased from 60 to 100.
+
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
+{% endraw %}
 
 <blockquote><b>Data notes</b>:<br>
 * Hospital data for that day available after 14h, but there's a 3-day lag with testing data, which is why the ICU maps are more recent than the alert map.
@@ -83,13 +88,28 @@ Nov 4: To make the regional ICU map more informative with so many regions over 6
 * To show Covid's full impact on ICU saturation, `rea%` & `rea%_dep` are based on the number of permanent ICU beds. Although hospitals have found some additional ICU capacity for the 2nd wave, this comes at the expense of other hospital care.
 </blockquote>
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
-{% endraw %}
+### At the departmental level
 
 The map below shows how much `rea%` varies by department.
 
+Nov 15: With so many departments well above 100%—in a few Auvergne-Rhône-Alpes departments, it's above 200%—I am in the process of modifying this map so it will instead show _ranges_ of ICU saturation.
+
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
+
+### What does this mean, in reality?
+
+Le Parisien has been profiling what's going on in the hospitals around France during the second wave. (Unfortunately, most are behind paywalls)
+
+One example is the city of Orléans (Loiret dept, part of Centre-Val-de-Loire region). As of Nov 14, Loiret's `rea%_dep` was at 153%, while region `rea%` was 90%.
+
+In the article from Nov 13th, they described having added 30 additional ICU beds and needing to postpone 35-40% of surgeries.
+
+What it means is if you need a tumor removed, your surgery will still go ahead. On the other hand, surgeries for non life-threatening issues, like breast reconstruction after a masectomy or IVF procedures, will be postponed.
+
+Nonetheless, these delays can still cause pyschological harm; and for the latter they also impact the outcome: time counts when it comes to fertility.
+
+Full article (FR) [here](https://www.leparisien.fr/societe/sante/covid-19-le-centre-hospitalier-d-orleans-contraint-de-transferer-des-patients-vers-tours-et-blois-13-11-2020-8408156.php){:target="_blank"}.
 
 ## Where's the alert map?
 
