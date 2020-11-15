@@ -54,7 +54,7 @@ As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tou
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## Elderly incidence rates decreasing in more departments
+## Elderly incidence rate decreasing in more departments
 
 This is a much more subtle change: from 52 departments to 64 as of Nov 15.
 
@@ -74,14 +74,14 @@ By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy b
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## ICU saturation maps appear marginally less red
+## ICU saturation: is it shifting westwards?
 {:.no_toc}
 
 ### At the regional level
 
-It's subtle, but the regions that never got close to 100%, but never reached it seem to have decreased further. Exaples being Ile-de-France and Corse.
+Overall it seems like the 2nd-darkest regions, like Ile de France and Corse and perhaps Occitanie, are marginally less dark while the lighter regions seem darker.
 
-However the regions already over 100% will remain burgundy for some time still, except perhaps PACA.
+However the darkest regions (those already over 100%) will remain burgundy for some time still, except perhaps PACA.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -97,7 +97,7 @@ However the regions already over 100% will remain burgundy for some time still, 
 
 The map below shows how much `rea%` varies by department.
 
-Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker. This could be largely due to patient transfers.
+Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
