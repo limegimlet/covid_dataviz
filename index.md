@@ -62,6 +62,8 @@ Coming soon: it takes more time to calculate net changes in elderly incidence ra
 
 **NOV 15: Today's ICU occupation numbers appeared to be doubled. These have completely skewed the maps and plots, so I'm hiding them until this is corrected.**
 
+![Oops](img/oops_hosp_data.png)
+
 <!--
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
