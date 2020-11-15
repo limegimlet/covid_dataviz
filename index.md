@@ -43,7 +43,7 @@ Since there are scenarios where a department has passed one threshold, but not t
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 -->
 
-## Overall incidence rate down in most departments
+## Overall incidence rate decreasing in most departments
 
 As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tous` rates decrease since confinement began.
 
@@ -54,19 +54,21 @@ As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tou
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## Elderly incidence rate changes TBD
+## Elderly incidence rates decreasing in more departments
+
+This is a much more subtle change: from 52 departments to 64 as of Nov 15.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
 {% endraw %}
 
-## ICU saturation increased in nearly all departments
+## ICU saturation increasing in nearly all departments
 
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
-**There is good news, however: at the national level ICU occupancy has stablilized!**
+**There is good news, however**: at the national level ICU occupancy has stablilized!
 
 ![flattening ICU](img/icu_flattening.png)
 
