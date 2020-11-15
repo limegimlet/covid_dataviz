@@ -97,17 +97,17 @@ Nov 15: With so many departments well above 100%—in a few Auvergne-Rhône-Alpe
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-### What does this mean, in reality?
+### What does ICU saturation mean, in reality?
 
-Le Parisien has been profiling what's going on in the hospitals around France during the second wave. (Unfortunately, most are behind paywalls)
+Le Parisien has been profiling what's going on in the hospitals around France during the second wave. Unfortunately, most are behind paywalls.
 
-One example is the city of Orléans (Loiret dept, part of Centre-Val-de-Loire region). As of Nov 14, Loiret's `rea%_dep` was at 153%, while region `rea%` was 90%.
+One example (that's also open) is the city of Orléans in the Loiret, part of the Centre-Val-de-Loire region. As of Nov 14, Loiret's `rea%_dep` was at 153%, while region `rea%` was 90%.
 
 In the article from Nov 13th, they described having added 30 additional ICU beds and needing to postpone 35-40% of surgeries.
 
-What it means is if you need a tumor removed, your surgery will still go ahead. On the other hand, surgeries for non life-threatening issues, like breast reconstruction after a masectomy or IVF procedures, will be postponed.
+What it means is if you need a tumor removed, your surgery will still go ahead. On the other hand, surgeries for non life-threatening issues such as prostate surgery, breast reconstruction after a masectomy, or IVF procedures will be postponed.
 
-Nonetheless, these delays can still cause pyschological harm; and for the latter they also impact the outcome: time counts when it comes to fertility.
+Nonetheless, these delays can still cause pyschological harm and impact quality of life; for IVF they also impact outcome: time counts when it comes to fertility.
 
 Full article (FR) [here](https://www.leparisien.fr/societe/sante/covid-19-le-centre-hospitalier-d-orleans-contraint-de-transferer-des-patients-vers-tours-et-blois-13-11-2020-8408156.php){:target="_blank"}.
 
