@@ -20,19 +20,19 @@ However, even if it's decreasing, there's still a very high number of new infect
 
 Since inevitably a certain proportion of those infected now will end up in ICU ~7 days from now, it still means stress for hospitals for the foreseeable future.
 
-{% raw %}<iframe width="100%" height="1800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="1900" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
 
 ## Incidence rate increases
 
-{% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate decreases
 
-{% raw %}<iframe width="100%" height="700" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate increases
 
-{% raw %}<iframe width="100%" height="1400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
 
 
 ## ICU saturation decreases
