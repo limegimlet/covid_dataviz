@@ -54,13 +54,13 @@ As of Nov 14, over 80 of the 96 mainland France departments have seen `incid_tou
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## Elderly incidence rate changes are still TBD.
+## Elderly incidence rate changes are still TBD
 
-Coming soon. It takes a few more steps to calculate net changes in elderly incidence rates, since it requires the elderly testing rate first.
+Coming soon: it takes more time to calculate net changes in elderly incidence rates, since it requires calculating the elderly testing rate.
 
 ## ICU saturation is still growing in nearly all departments
 
-By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there was at the beginning of confinement.
+By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
