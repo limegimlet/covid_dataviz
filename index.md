@@ -64,7 +64,7 @@ Nevertheless, for the sake of consistency & transparency, you can still view my 
 
 ## ICU saturation is still growing in nearly all departments
 
-Unfortunately, it looks like it will still be a while before the same can be said for ICU occupancy by Covid patients.
+Unfortunately, it looks like confinement has had zero effect so far for ICU occupancy by Covid patients.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
