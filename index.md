@@ -5,6 +5,8 @@ _All data on this site is updated nightly._
 # Confinement # 2: Where France is now<sup>*</sup>
 {:.no_toc}
 
+It's November 15 2020, which means we're over two weeks into our second-wave confinement. What impact has it had so far?
+
 <!--
 (_Please wait a few seconds while the maps loads..._)
 
@@ -43,28 +45,22 @@ The typical example is a département with `incid_70+` well above 50, but a low 
 
 ## Overall incidence rate down in most departments
 
-Nov 14: the majority of mainland France departments have seen their `incid_tous` rates decrease since the confinement began.
-
-Also, to make sure the decreases aren't just due to less testing, these counts are based on % change of `incid_tous` less the % change  the `tx_depistage`.
+As of Nov 14, over 80 of the 96 mainland France departments have seen `incid_tous` rates decrease since confinement began.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
+<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these counts are based on the net incidence rate change: the % change of `incid_tous` less the % change of the `tx_depistage`.</blockquote>
+
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-### Where's the alert map?
+## Elderly incidence rate changes are still TBD.
 
-Nov 14: The alert map has been moved off this page for the time being. The alert triggers no longer make sense now that incidence rates have begun falling, since they drop so much quicker than ICU saturation rates.
-
-For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%. In some departments, regional ICU saturation is at 97% but incidence rates are now relatively low.
-
-How do you classify these? Even the government now has abandoned their official alert map.
-
-Nevertheless, for the sake of consistency & transparency, you can still view my map [here](alerts.html).
+Coming soon. It takes a few more steps to calculate net changes in elderly incidence rates, since it requires the elderly testing rate first.
 
 ## ICU saturation is still growing in nearly all departments
 
-Unfortunately, it looks like confinement has had zero effect so far for ICU occupancy by Covid patients.
+By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there was at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
@@ -94,6 +90,16 @@ The map below shows how much `rea%` varies by department.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}
+
+## Where's the alert map?
+
+Nov 14: The alert map has been moved off this page for the time being. The alert triggers no longer make sense now that incidence rates have begun falling, since they drop so much quicker than ICU saturation.
+
+For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%. In some departments, regional ICU saturation is at 97% but incidence rates are now relatively low.
+
+How do you classify these? Even the government now has abandoned their official alert map (see the section on official numbers under Alert FAQs, further below).
+
+Nevertheless, for the sake of consistency & transparency, you can still view my map [here](alerts.html).
 
 # Where France is going
 {:.no_toc}
