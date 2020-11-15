@@ -60,10 +60,14 @@ Coming soon: it takes more time to calculate net changes in elderly incidence ra
 
 ## ICU saturation still growing in nearly all departments
 
+NOV 15: Today's ICU occupation numbers appeared to be doubled. These have completely skewed the maps and plots, so I'm hiding them until this is corrected.
+
+<!--
 By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
+
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
@@ -95,7 +99,7 @@ The map below shows how much `rea%` varies by department.
 Nov 15: With so many departments well above 100%—in a few Auvergne-Rhône-Alpes departments, it's above 200%—I am in the process of modifying this map so it will instead show _ranges_ of ICU saturation.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
-{% endraw %}
+{% endraw %}-->
 
 ### What does ICU saturation mean, in reality?
 
