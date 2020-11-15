@@ -2,7 +2,7 @@ _**Mobile users**: view in landscape._
 
 _All data on this site is updated nightly._
 
-# Covid-19: Where France is now<sup>*</sup>
+# Covid-19, confined # 2: Where France is now<sup>*</sup>
 {:.no_toc}
 
 <!--
@@ -41,7 +41,7 @@ Since there are scenarios where a department has passed one threshold, but not t
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 -->
 
-## Incid_tous decreasing since confinement
+## Overall incidence rate down in most departments
 
 Nov 14: the majority of mainland France departments have seen their `incid_tous` rates decrease since the confinement began.
 
@@ -50,22 +50,28 @@ Also, to make sure the decreases aren't just due to less testing, these counts a
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
-Unfortunately, it looks like it will still be a while before the same can be said for ICU occupancy by covid patients.
+For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
+
+### Where's the alert map?
+
+Nov 14: The alert map has been moved off this page for the time being. The alert triggers no longer make sense now that incidence rates have begun falling, since they drop so much quicker than ICU saturation rates.
+
+For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%. In some departments, regional ICU saturation is at 97% but incidence rates are now relatively low.
+
+How do you classify these? Even the government now has abandoned their official alert map.
+
+Nevertheless, for the sake of consistency & transparency, you can still view my map [here](alerts.html).
+
+## ICU saturation is still growing in nearly all departments
+
+Unfortunately, it looks like it will still be a while before the same can be said for ICU occupancy by Covid patients.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
 For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
-## Where's the alart map?
-
-Nov 14: The alert map has been moved off this page for the time being, since the alert triggers no longer really make sense.
-
-For example, we now have departments back down to the `alerte` level because `incid_tous` has gone below 150 cases for 100k population, but `rea%` is still above 60%.
-
-You can still view the map [here](alerts.html)c.
-
-## ICUs are still saturated
+## And so ICUs maps keep getting redder
 {:.no_toc}
 
 ICU saturation is normally measured by region since hospitals are managed at the regional level, allowing for inter-region transfers of patients.
@@ -84,7 +90,6 @@ Nov 4: To make the regional ICU map more informative with so many regions over 6
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
 
-
 The map below shows how much `rea%` varies by department.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
@@ -97,6 +102,7 @@ The curves show that the incidence rate for the elderly is growing faster than t
 * Sept 1: `incid_70+` was lagging `incid_tous` by about 2.5 weeks.
 * Oct 23: the lag was only 3 days.
 * Oct 28: the lag was less than 2 days.
+* Nov 15: since confinement, incidence rates are falling overall, but `incid_70+` is falling much slower than for `incid_tous`.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
