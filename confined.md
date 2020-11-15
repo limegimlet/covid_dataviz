@@ -12,7 +12,7 @@ Nov 12: We are starting to see modest decreases in incidence rates, but barely a
 
 * Also, note that the scale for decreases is far more modest for `rea%` than for increases. **In other words, we've still got a ways to go**.
 
-## Incidence rate decreases
+## Incidence rate % decreases
 
 Nov 13: This is the first good sign. The vast majority of departments show decreasing `incid_tous`.
 
@@ -22,26 +22,26 @@ Since inevitably a certain proportion of those infected now will end up in ICU ~
 
 {% raw %}<iframe width="100%" height="1900" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
 
-## Incidence rate increases
+## Incidence rate % increases
 
 {% raw %}<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
 
-## Elderly incidence rate decreases
+## Elderly incidence rate % decreases
 
 {% raw %}<iframe width="100%" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
 
-## Elderly incidence rate increases
+## Elderly incidence rate % increases
 
 {% raw %}<iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
 
 
-## ICU saturation decreases
+## ICU saturation % decreases
 
 These are modest, and seem to be all rural. It's likely they have few ICU beds so the departure of one or two patients can have a big impact.
 
 {% raw %}<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/211.embed?showlink=false"></iframe>{% endraw %}
 
-## ICU saturation increases
+## ICU saturation % increases
 
 The first row is something of an outlier, with such a giant increase that the still-large increases elsewhere literally pale in comparison.
 
