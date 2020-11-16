@@ -32,9 +32,7 @@ Compared to the overall incidence rate, there are fewer departments with decreas
 
 I suspect this is because many elderly Covid cases are from EHPAD (old age home) clusters. As with any type of cluster, it prompts intensive testing - and from the hover info you can see that the test rate had indeed increased for the first 7 departments on Nov 15.  
 
-Intenstive testing quickly uncovers more cases, hence rapid spikes in `incid_70+` on the way up, and steeper plunges once the cluster shrinks.
-
-All this translates into bigger % changes.
+Intenstive testing quickly uncovers more cases, hence rapid spikes in `incid_70+` on the way up, and steeper plunges once the cluster shrinks. All this translates into bigger % changes.
 
 {% raw %}<iframe width="100%" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
 
