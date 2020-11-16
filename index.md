@@ -52,7 +52,7 @@ As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tou
 
 <blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these counts are based on the net incidence rate change: the % change of `incid_tous` less the % change of the `tx_depistage`.</blockquote>
 
-For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
+For a daily breakdown by department, [check out these heatmaps](confined.md#incidence-rate--decreases){:target="_blank"}.
 
 ## Elderly incidence rate decreasing in more departments
 
@@ -61,18 +61,23 @@ This is a much more subtle change: from 52 departments to 64 as of Nov 15.
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
 {% endraw %}
 
+For a daily breakdown by department, [check out these heatmaps](confined.md#elderly-incidence-rate--decreases){:target="_blank"}.
+
 ## ICU saturation increasing in nearly all departments
 
-By contrast, as of Nov 14 there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
+By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
+
+However, since Nov 6 the proportion of increasing ICU saturation departments has begun to stabilize at least.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
 
-**There is good news, however**: at the national level ICU occupancy has stablilized!
+For a daily breakdown by department, [check out these heatmaps](confined.md#icu-saturation--decreases){:target="_blank"}.
+
+You can also see this in image below of daily ICU occupancy numbers: since Nov 11 it has begun to plateau (the red horizontal line represents the total number of permanent ICU beds).
 
 ![flattening ICU](img/icu_flattening.png)
 
-For a daily breakdown by department, [check out these heatmaps](confined.md){:target="_blank"}.
 
 ## ICU saturation: is it shifting westwards?
 {:.no_toc}
