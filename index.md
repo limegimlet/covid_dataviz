@@ -2,7 +2,7 @@ _**Mobile users**: view in landscape._
 
 _All data on this site is updated nightly._
 
-# Confinement # 2: Where France is now<sup>*</sup>
+# Confinement # 2: Where France is now
 {:.no_toc}
 
 It's November 15 2020, which means we're over two weeks into our second-wave confinement. What impact has it had so far?
@@ -50,7 +50,7 @@ As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tou
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
-<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these counts are based on the net incidence rate change: the % change of `incid_tous` less the % change of the `tx_depistage`.</blockquote>
+<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
 For a daily breakdown by department, [check out these heatmaps](confined.md#incidence-rate--decreases){:target="_blank"}.
 
@@ -60,6 +60,8 @@ This is a much more subtle change: from 52 departments to 64 as of Nov 15.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
 {% endraw %}
+
+<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
 For a daily breakdown by department, [check out these heatmaps](confined.md#elderly-incidence-rate--decreases){:target="_blank"}.
 
