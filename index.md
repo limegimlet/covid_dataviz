@@ -81,7 +81,7 @@ You can also see this in image below of daily ICU occupancy numbers: since Nov 1
 ![flattening ICU](img/icu_flattening.png)
 
 
-## ICU saturation: is it shifting westwards?
+## ICU saturation: slowly going down
 {:.no_toc}
 
 ### At the regional level
@@ -102,9 +102,7 @@ However the darkest regions (those already over 100%) will remain burgundy for s
 
 ### At the departmental level
 
-The map below shows how much `rea%` varies by department.
-
-Nov 15: While it seems to be easing up in Bourgogne-Franche-Comté and Hauts-de-France, departments further west in Bretagne and Pays de la Loire appear darker.
+The map below shows how much `rea%` varies by department, even within the same region.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_dept.html" height="600" width="100%"></iframe>
 {% endraw %}

@@ -18,13 +18,13 @@ However, even if it's decreasing, in absolute numbers it's still high: there's s
 
 Since inevitably a certain proportion of those infected now will end up in ICU ~7 days from now, it still means stress for hospitals for the foreseeable future.
 
-{% raw %}<iframe width="100%" height="1900" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="1600" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}
 
 ## Incidence rate % increases
 
 You definitely get a sense that increases are really levelling off: the biggest post-confinement increase on Nov 15 was 12%.
 
-{% raw %}<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="250" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate % decreases
 
@@ -34,7 +34,7 @@ I suspect this is because many elderly Covid cases are from EHPAD (old age home)
 
 Intenstive testing quickly uncovers more cases, hence rapid spikes in `incid_70+` on the way up, and steeper plunges once the cluster shrinks. All this translates into bigger % changes.
 
-{% raw %}<iframe width="100%" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="1400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/207.embed?showlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate % increases
 
@@ -44,7 +44,7 @@ In the past 2.5 weeks you can see from the color changes along the rows that the
 
 Compared to increases in `incid_tous`, there are not just more departments with `incid_70+` that is still increasing more than 2 weeks into confinement, the increase rate is bigger - see the range of the scale at right.
 
-{% raw %}<iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/209.embed?showlink=false"></iframe>{% endraw %}
 
 
 ## ICU saturation % decreases
@@ -59,4 +59,4 @@ The first row is something of an outlier, with such a giant increase that the st
 
 Also, Deux-Sèvres is the department with the 2nd-lowest number of ICU beds per 100k population: 2.08. For comparison, the highest numbers (in Territoire du Belfort & Paris) are above 17 beds per 100k population.
 
-{% raw %}<iframe width="100%" height="2000" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/213.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="1400" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/213.embed?showlink=false"></iframe>{% endraw %}
