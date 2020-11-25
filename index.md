@@ -1,11 +1,11 @@
 _**Mobile users**: view in landscape._
 
-_All data on this site is updated nightly._
+_All plot data on this site is updated nightly._
 
 # Confinement # 2: Where France is now
 {:.no_toc}
 
-It's November 15 2020, which means we're over two weeks into our second-wave confinement. What impact has it had so far?
+<blockquote><b>NEW</b>: for updates on Covid in France, check out the <a href="https://limegimlet.github.io/learning/" target="_blank">blog</a>.</blockquote>
 
 <!--
 (_Please wait a few seconds while the maps loads..._)
@@ -75,10 +75,6 @@ However, since Nov 6 the proportion of increasing ICU saturation departments has
 {% endraw %}
 
 For a daily breakdown by department, [check out these heatmaps](confined.md#icu-saturation--decreases){:target="_blank"}.
-
-You can also see this in image below of daily ICU occupancy numbers: since Nov 11 it has begun to plateau (the red horizontal line represents the total number of permanent ICU beds).
-
-![flattening ICU](img/icu_flattening.png)
 
 
 ## ICU saturation: slowly going down
