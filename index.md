@@ -5,7 +5,7 @@ _All plot data on this site is updated nightly._
 # Confinement # 2: Where France is now
 {:.no_toc}
 
-<blockquote><b>NEW</b>: for updates on Covid in France, check out the <a href="https://limegimlet.github.io/learning/" target="_blank">blog</a>.</blockquote>
+<blockquote><b>NEW</b>: While the data on this site is updated nightly, to get the latest summaries check the new(ish) <a href="https://limegimlet.github.io/learning/" target="_blank">blog</a>.</blockquote>
 
 <!--
 (_Please wait a few seconds while the maps loads..._)
