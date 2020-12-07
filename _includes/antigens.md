@@ -1,0 +1,1 @@
+_**Dec 7 Data note**: Incidence rates (`incid_tous` & `incid_70+`) shown here are based on PCR test results only. Santé Publique France is expected to make antigen test data is available this week, after which I'll update incidence rates shown here._
