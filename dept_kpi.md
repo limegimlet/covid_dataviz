@@ -1,3 +1,5 @@
+{% include warnings.md %}
+
 # Compare departments
 {:.no_toc}
 

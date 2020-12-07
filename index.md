@@ -1,12 +1,7 @@
-_**Mobile users**: view in landscape._
-
-_All plot data on this site is updated nightly._
+{% include warnings.md %}
 
 # Confinement # 2: Where France is now
 {:.no_toc}
-
-<blockquote><b>NEW</b>: While the data on this site is updated nightly, the text is not! <b>For the latest summaries check the <a href="https://limegimlet.github.io/learning/" target="_blank">blog</a></b>.</blockquote>
-
 <!--
 (_Please wait a few seconds while the maps loads..._)
 
@@ -171,7 +166,7 @@ The goal here is to see the alert statuses, possible restrictions, and the numbe
 Other sites I've visited are overwhelming. This site is my attempt at finding a middle ground. <a href="mailto:sehosking@gmail.com?subject=Feedback for covid_dataviz">Your feedback is welcomed</a>.
 
 ## Where can I see the official government stats on Covid-19?
-    
+
 **The official alert map** with the most up-to-date numbers:
 
 Nov 3: this link returns a `404: file not found` error, without a redirect. The ministry's home page no longer refers to it, either, and instead points you to the SPF dashboard (link further down).

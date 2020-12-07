@@ -1,3 +1,5 @@
+{% include warnings.md %}
+
 # Compare communes
 {:.no_toc}
 

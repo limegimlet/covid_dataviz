@@ -1,3 +1,5 @@
+{% include warnings.md %}
+
 # Confinement: where is it having the greatest impact?
 
 * The heatmaps below show **daily _percentage_ change since Oct 28 2020** for `incid_tous`, `incid_70+`, and `rea%_dep` in the 96 mainland France departments.
@@ -14,7 +16,9 @@
 
 ## Incidence rate % increases
 
-{% raw %}<iframe width="100%" height="250" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?showlink=false"></iframe>{% endraw %}
+{% raw %}<iframe width="100%" height="250" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/205.embed?sho
+
+wlink=false"></iframe>{% endraw %}
 
 ## Elderly incidence rate % decreases
 

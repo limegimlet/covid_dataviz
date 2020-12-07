@@ -1,3 +1,5 @@
+{% include warnings.md %}
+
 # Curfews: why some but not others?
 
 Since Oct 14 France has begun imposing curfews from 21h to 06h. These begun on Oct 17 in 9 metropolitan areas.
