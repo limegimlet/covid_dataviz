@@ -43,33 +43,26 @@ Since there are scenarios where a department has passed one threshold, but not t
 The typical example is a département with `incid_70+` well above 50, but a low `incid_tous`. This could be a result of testing bias: a cluster in an EHPAD leads to a disproportionate amount of testing of the older population compared to the general population.
 -->
 
-## Overall incidence rate decreasing in most departments
+## Number of departments where incidence rates are decreasing
 
-As of Nov 11, over 80 of the 96 mainland France departments have seen `incid_tous` rates decrease since confinement began.
+<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
-<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
 For a daily breakdown by department, [check out these heatmaps](confined.md#incidence-rate--decreases){:target="_blank"}.
 
 ## Elderly incidence rate decreasing in more departments
 
-This is a much more subtle change: from 52 departments to 64 as of Nov 15.
+<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
 {% endraw %}
 
-<blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
-
 For a daily breakdown by department, [check out these heatmaps](confined.md#elderly-incidence-rate--decreases){:target="_blank"}.
 
 ## ICU saturation increasing in nearly all departments
-
-By contrast, there are now _more_ departments where ICU occupancy by Covid patients (`rea%_dep`) is increasing than there were at the beginning of confinement.
-
-However, since Nov 6 the proportion of increasing ICU saturation departments has begun to stabilize at least.
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/283.embed?showlink=false"></iframe>
 {% endraw %}
@@ -81,10 +74,6 @@ For a daily breakdown by department, [check out these heatmaps](confined.md#icu-
 {:.no_toc}
 
 ### At the regional level
-
-Overall it seems like the 2nd-darkest regions, like Ile de France and Corse and perhaps Occitanie, are marginally less dark while the lighter regions seem darker.
-
-However the darkest regions (those already over 100%) will remain burgundy for some time still, except perhaps PACA.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/rea_pct_region.html" height="600" width="100%"></iframe>
 {% endraw %}
@@ -131,38 +120,28 @@ Nevertheless, for the sake of consistency & transparency, you can still view my 
 {:.no_toc}
 
 The curves show that the incidence rate for the elderly is growing faster than the overall incidence rate.
-* Sept 1: `incid_70+` was lagging `incid_tous` by about 2.5 weeks.
-* Oct 23: the lag was only 3 days.
-* Oct 28: the lag was less than 2 days.
+
+* Dec 7: both `incid_tous` & `incid_70+` have flattened, but `incid_70+` is "stuck" at a much higher level than `incid_tous`. Is this testing biais due to clusters in EHPADs, or is it indeed representative?
 * Nov 15: since confinement, incidence rates are falling overall, but `incid_70+` is falling much slower than for `incid_tous`.
+* Oct 28: the lag was less than 2 days.
+* Oct 23: the lag was only 3 days.
+* Oct 23: the lag was only 3 days.
 
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_fr_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
 
-Granted, incidence rates are heavily subject to testing bias. For example, since mid-September there's been a change in testing strategy to reduce bottlenecks, by  prioritizing those who are symptomatic, and who are also more likely to be older.
-
-Regardless of incidence rates, though, the plot above shows that ICU saturation is already above 30% nationally.
-
-Moreover, if you isolate `rea%` (click the legend) and zoom in from Sept 1, you can  see how the increase in ICU occupancy has accelerated after Oct 15.
-
 # How these trends play out in hospitals
 {:.no_toc}
 
-Below you can see a rise in ICU arrivals around September 1st (zoom in). Deaths (`dc`) had already started a slow rise that by late October is looking speeding up.
-
 {% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://limegimlet.github.io/covid_dataviz/kpi_rea_dc_trends.html" height="500" width="100%"></iframe>
 {% endraw %}
-
-(The big bump from Sept 18 to 25 was not from new deaths those days, but the result of catching up on a [data-entry backlog](https://www.bfmtv.com/sante/coronavirus-un-rattrapage-de-donnees-provoque-une-forte-hausse-du-nombre-de-deces-dans-les-hopitaux_AN-202009180358.html){:target="_blank"}.)
 
 **These national trends hide regional variations. Compare regions and departments [on this page](region_kpi.html)**.
 
 # How is France doing compared to our neighbours?
 {:.no_toc}
 
-Oct 23: In an odd coincidence, the countries where French is spoken are all at the top.
-
-A more general observation: Spain & Belgium were, per capita, the worst-hit countries of Europe's first wave, only to became the heralds of the second wave. A symptom of the political bickering within their regions?
+Dec 7: Many countries are experiencing the same pattern of sharp decline after 2nd wave restrictions, only to see a flattening as the holidays approach. Exceptions are Italy and Germany.
 
 {% raw %}<iframe src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&minPopulationFilter=1000000&country=FRA~BEL~DEU~ITA~ESP~IRL~GBR~CHE~LUX&region=Europe&casesMetric=true&interval=smoothed&hideControls=true&perCapita=true&smoothing=7&pickerMetric=location&pickerSort=asc" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 {% endraw %}
@@ -179,51 +158,7 @@ It's likely that Luxembourg's recent spike in incidence rate is partially due to
 * TOC
 {:toc}
 
-## Alert FAQ
-
-### What are the restrictions?
-
-The possible restrictions are determined by the alert level in your area. (Descriptions in French)
-
-#### Alerte
-
-Pour ces départements, peu de mesures supplémentaires sont ajoutées, si ce n’est que les rassemblements devront être limités à 30 personnes.
-
-Toutefois, les préfets sont autorisés à prendre des mesures complémentaires si nécéssaire.
-
-#### Alerte renforcée
-
-* la jauge des rassemblements est baissée de 5 000 à 1 000 personnes
-* les rassemblements de plus de 10 personnes dans l’espace public sont interdits
-* les fêtes locales et étudiantes sont interdites
-* les gymnases, salles des fêtes et salles de sport sont fermés
-* les bars et restaurant doivent fermer à partir de 22 heures.
-
-De plus, le ministre de la Santé a rappelé que “le télétravail doit être favorisé autant que possible, surtout sur les publics vulnérables”.
-
-#### Alerte maximale
-
-* la fermeture totale des bars et des restaurants, ainsi que les établissements recevant du public, sauf s’il existe un protocole sanitaire strict.
-
-NB: Les théâtres, les cinémas et les musées peuvent donc rester ouverts.
-
-“Ces dispositions sont temporaires, l’objectif est qu’elles ne durent pas plus de deux semaines”, a déclaré Olivier Véran.
-
-#### État d’urgence sanitaire
-
-On October 14 2020 Emmanuel Macron announced a national health emergency due to pressure on ICUs in urban areas. As a result, <b>since midnight Oct 17 2020, 9 métropoles (shown on map) are under curfew from 21h to 06h for a minimum of 4 weeks</b>, possibly extending to 6.
-
-In addition to the curfew, to slow the spread the following measures apply to the entire country:
-
-* No gatherings of more than 6 people in public.
-
-* Work from home at least 50 %.
-
-* Festive events in village halls or community centers are forbidden.
-
-* In enclosed spaces hosting seated spectators, a limit of 5 000 people, with a vacant seat between them. For other public-facing establishments where people are seated, the limit is 6 people.
-
-* Sports training facilities: openings allowed depending on the specific alert status of the département.
+## FAQs
 
 ### How can I see regional breakdowns for the indicators?
 
@@ -236,7 +171,7 @@ The goal here is to see the alert statuses, possible restrictions, and the numbe
 Other sites I've visited are overwhelming. This site is my attempt at finding a middle ground. <a href="mailto:sehosking@gmail.com?subject=Feedback for covid_dataviz">Your feedback is welcomed</a>.
 
 ## Where can I see the official government stats on Covid-19?
-
+    
 **The official alert map** with the most up-to-date numbers:
 
 Nov 3: this link returns a `404: file not found` error, without a redirect. The ministry's home page no longer refers to it, either, and instead points you to the SPF dashboard (link further down).

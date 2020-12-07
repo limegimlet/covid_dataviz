@@ -1,8 +1,6 @@
 # Compare departments
 {:.no_toc}
 
-<blockquote><b>NEW</b>: These plots are now easier to read & interpret, with alert threshold lines, clearer labels, and better y-axis ranges.</blockquote>
-
 * TOC
 {:toc}
 
