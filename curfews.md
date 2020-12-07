@@ -10,4 +10,4 @@ When you play the animation below, it's clear why these metros in particular wer
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/138.embed?showlink=false"></iframe>{% endraw %}
 
-As the days go by it will be interesting to see the trajectory for the curfew metros compared to non-curfew ones.  And to see if any other metropoles are moving into the curfew zone.
+{% include antigens.md %}

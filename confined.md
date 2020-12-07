@@ -10,6 +10,8 @@
 
 * Note the color scale to the right of each heatmap: it varies for each.
 
+* {% include antigens.md %}
+
 ## Incidence rate % decreases
 
 {% raw %}<iframe width="100%" height="1600" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/203.embed?showlink=false"></iframe>{% endraw %}

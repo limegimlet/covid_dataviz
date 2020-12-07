@@ -42,6 +42,8 @@ The typical example is a département with `incid_70+` well above 50, but a low 
 
 <blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
 
+{% include antigens.md %}
+
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/285.embed?showlink=false"></iframe>
 {% endraw %}
 
@@ -51,6 +53,8 @@ For a daily breakdown by department, [check out these heatmaps](confined.md#inci
 ## Elderly incidence rate decreasing in more departments
 
 <blockquote><b>Data notes</b>: to make sure these decreases aren't simply due to less testing, these <b>counts are based on the NET incidence rate change</b>: % change of `incid_tous` minus  % change of `tx_depistage`.</blockquote>
+
+{% include antigens.md %}
 
 {% raw %}<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plotly.com/~limegimlet/315.embed?showlink=false"></iframe>
 {% endraw %}

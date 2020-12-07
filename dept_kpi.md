@@ -3,6 +3,8 @@
 # Compare departments
 {:.no_toc}
 
+* {% include antigens.md %}
+
 * TOC
 {:toc}
 
