@@ -15,8 +15,10 @@ Accordingly, the map now includes higher ranges: 250-500, 500-1000, & 1000+.
 
 <blockquote>To see only the communes in the 1000+ range, click the colorscale below the map.</blockquote>
 
-{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2020-10-16-2020-10-22&t=a01&view=map9" height="800" width="100%"></iframe>
+{% raw %}<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=sg_iris_imp.ti&s=2021-02-13-2021-02-19&t=a01&view=map9" height="800" width="100%"></iframe>
 {% endraw %}
+
+
 
 After filtering to see only the 1000+ communes, here's what stood out for me:
 * in week ending Oct 22, there are none in Paris or the petite couronne...yet. That was a surprise at first, but when I thought about it, not so much.
